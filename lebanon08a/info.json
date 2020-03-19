@@ -1,0 +1,16 @@
+{
+    "abstract": "Statistical models on full and partial rankings of <i>n</i> items are\noften of limited practical use for large <i>n</i> due to computational\nconsideration. We explore the use of non-parametric models for\npartially ranked data and derive computationally efficient\nprocedures for their use for large <i>n</i>. The derivations are\nlargely possible through combinatorial and algebraic manipulations\nbased on the lattice of partial rankings. A bias-variance analysis\nand an experimental study demonstrate the applicability of the\nproposed method.",
+    "authors": [
+        "Guy Lebanon",
+        "Yi Mao"
+    ],
+    "id": "lebanon08a",
+    "issue": 78,
+    "pages": [
+        2401,
+        2429
+    ],
+    "title": "Non-Parametric Modeling of Partially Ranked Data",
+    "volume": "9",
+    "year": "2008"
+}

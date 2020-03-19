@@ -1,0 +1,17 @@
+{
+    "abstract": "Large-scale logistic regression arises in many applications such as\ndocument classification and natural language processing.  In this\npaper, we apply a trust region Newton method to maximize the\nlog-likelihood of the logistic regression model. The proposed method\nuses only approximate Newton steps in the beginning, but achieves fast\nconvergence in the end. Experiments show that it is faster than the\ncommonly used quasi Newton approach for logistic regression.  We also\nextend the proposed method to large-scale L2-loss linear support\nvector machines (SVM).",
+    "authors": [
+        "Chih-Jen Lin",
+        "Ruby C. Weng",
+        "S. Sathiya Keerthi"
+    ],
+    "id": "lin08b",
+    "issue": 21,
+    "pages": [
+        627,
+        650
+    ],
+    "title": "Trust Region Newton Method for Logistic Regression",
+    "volume": "9",
+    "year": "2008"
+}

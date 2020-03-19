@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper proposes new approaches to rank individuals from their\ngroup comparison results. Many real-world problems are of this\ntype. For example, ranking players from team comparisons is important\nin some sports.  In machine learning, a closely related application is\nclassification using coding matrices. Group comparison results are\nusually in two types: binary indicator outcomes (wins/losses) or\nmeasured outcomes (scores).  For each type of results, we propose new\nmodels for estimating individuals' abilities, and hence a ranking of\nindividuals. The estimation is carried out by solving convex\nminimization problems, for which we develop easy and efficient\nsolution procedures. Experiments on real bridge records and\nmulti-class classification demonstrate the viability of the proposed\nmodels.",
+    "authors": [
+        "Tzu-Kuo Huang",
+        "Chih-Jen Lin",
+        "Ruby C. Weng"
+    ],
+    "id": "huang08a",
+    "issue": 71,
+    "pages": [
+        2187,
+        2216
+    ],
+    "title": "Ranking Individuals by Group Comparisons",
+    "volume": "9",
+    "year": "2008"
+}

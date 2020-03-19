@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nThe linear model with sparsity-favouring prior on the coefficients has\nimportant applications in many different domains. In machine learning,\nmost methods to date search for maximum a posteriori sparse solutions and\nneglect to represent posterior uncertainties. In this paper, we address\nproblems of Bayesian optimal design (or experiment planning), for which\naccurate estimates of uncertainty are essential. To this end, we employ\nexpectation propagation approximate inference for the linear model with\nLaplace prior, giving new insight into numerical stability properties and\nproposing a robust algorithm. We also show how to estimate model\nhyperparameters by empirical Bayesian maximisation of the marginal likelihood,\nand propose ideas in order to scale up the method to very large\nunderdetermined problems.\n</p>\n<p>\nWe demonstrate the versatility of our framework on the application of\ngene regulatory network identification from micro-array expression data,\nwhere both the Laplace prior and the active experimental design approach are\nshown to result in significant improvements. We also address the problem of\nsparse coding of natural images, and show how our framework can be used\nfor compressive sensing tasks.\n</p>\n<p>\nPart of this work appeared in Seeger et al. (2007b).  The gene network\nidentification application appears in Steinke et al. (2007). \n\n</p>",
+    "authors": [
+        "Matthias W. Seeger"
+    ],
+    "id": "seeger08a",
+    "issue": 25,
+    "pages": [
+        759,
+        813
+    ],
+    "title": "Bayesian Inference and Optimal Design for the Sparse Linear Model",
+    "volume": "9",
+    "year": "2008"
+}

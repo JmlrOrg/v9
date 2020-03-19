@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider the problem of estimating the value of a multiattribute\nresource, where the attributes are categorical or discrete in nature\nand the number of potential attribute vectors is very large. The\nproblem arises in approximate dynamic programming when we need to\nestimate the value of a multiattribute resource from estimates based\non Monte-Carlo simulation. These problems have been traditionally\nsolved using aggregation, but choosing the right level of aggregation\nrequires resolving the classic tradeoff between aggregation error and\nsampling error.  We propose a method that estimates the value of a\nresource at different levels of aggregation simultaneously, and then\nuses a weighted combination of the estimates.  Using the optimal\nweights, which minimizes the variance of the estimate while accounting\nfor correlations between the estimates, is computationally too\nexpensive for practical applications.  We have found that a simple\ninverse variance formula (adjusted for bias), which effectively\nassumes the estimates are independent, produces near-optimal\nestimates.  We use the setting of two levels of aggregation to explain\nwhy this approximation works so well.",
+    "authors": [
+        "Abraham George",
+        "Warren B. Powell",
+        "Sanjeev R. Kulkarni"
+    ],
+    "id": "george08a",
+    "issue": 67,
+    "pages": [
+        2079,
+        2111
+    ],
+    "title": "Value Function Approximation using Multiple Aggregation for Multiattribute Resource Management",
+    "volume": "9",
+    "year": "2008"
+}

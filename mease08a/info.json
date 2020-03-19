@@ -1,0 +1,16 @@
+{
+    "abstract": "The statistical perspective on boosting algorithms focuses on\noptimization, drawing parallels with maximum likelihood estimation\nfor logistic regression. In this paper we present empirical evidence\nthat raises questions about this view. Although the statistical\nperspective provides a theoretical framework within which it  is\npossible to derive theorems and create new algorithms in general\ncontexts, we show that there remain many unanswered important\nquestions. Furthermore, we provide examples that reveal crucial\nflaws in  the many practical suggestions and new methods that are\nderived from the statistical view.   We perform carefully designed\nexperiments using simple simulation models to illustrate some of\nthese flaws and their practical consequences.",
+    "authors": [
+        "David Mease",
+        "Abraham Wyner"
+    ],
+    "id": "mease08a",
+    "issue": 5,
+    "pages": [
+        131,
+        156
+    ],
+    "title": "Evidence Contrary to the Statistical View of Boosting",
+    "volume": "9",
+    "year": "2008"
+}

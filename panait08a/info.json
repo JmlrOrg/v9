@@ -1,0 +1,17 @@
+{
+    "abstract": "This paper presents the dynamics of multiple learning agents from an\nevolutionary game theoretic perspective.  We provide replicator\ndynamics models for cooperative coevolutionary algorithms and for\ntraditional multiagent Q-learning, and we extend these differential\nequations to account for lenient learners: agents that forgive\npossible mismatched teammate actions that resulted in low rewards.  We\nuse these extended formal models to study the convergence guarantees\nfor these algorithms, and also to visualize the basins of attraction\nto optimal and suboptimal solutions in two benchmark coordination\nproblems.  The paper demonstrates that lenience provides learners with\nmore accurate information about the benefits of performing their\nactions, resulting in higher likelihood of convergence to the globally\noptimal solution.  In addition, the analysis indicates that the choice\nof learning algorithm has an insignificant impact on the overall\nperformance of multiagent learning algorithms; rather, the performance\nof these algorithms depends primarily on the level of lenience that\nthe agents exhibit to one another.  Finally, the research herein\nsupports the strength and generality of evolutionary game theory as a\nbackbone for multiagent learning.",
+    "authors": [
+        "Liviu Panait",
+        "Karl Tuyls",
+        "Sean Luke"
+    ],
+    "id": "panait08a",
+    "issue": 12,
+    "pages": [
+        423,
+        457
+    ],
+    "title": "Theoretical Advantages of Lenient Learners:  An Evolutionary Game Theoretic Perspective",
+    "volume": "9",
+    "year": "2008"
+}

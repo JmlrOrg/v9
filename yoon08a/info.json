@@ -1,0 +1,17 @@
+{
+    "abstract": "A number of today's state-of-the-art planners are based on forward\nstate-space search.  The impressive performance can be attributed to\nprogress in computing domain independent heuristics that perform well\nacross many domains.  However, it is easy to find domains where such\nheuristics provide poor guidance, leading to planning failure.\nMotivated by such failures, the focus of this paper is to investigate\nmechanisms for learning domain-specific knowledge to better control\nforward search in a given domain.  While there has been a large body\nof work on inductive learning of control knowledge for AI planning,\nthere is a void of work aimed at forward-state-space search.  One\nreason for this may be that it is challenging to specify a knowledge\nrepresentation for compactly representing important concepts across a\nwide range of domains.  One of the main contributions of this work is\nto introduce a novel feature space for representing such control\nknowledge.  The key idea is to define features in terms of information\ncomputed via relaxed plan extraction, which has been a major source of\nsuccess for non-learning planners.  This gives a new way of leveraging\nrelaxed planning techniques in the context of learning.  Using this\nfeature space, we describe three forms of control knowledge---reactive\npolicies (decision list rules and measures of progress) and linear\nheuristics---and show how to learn them and incorporate them into\nforward state-space search.  Our empirical results show that our\napproaches are able to surpass state-of-the-art non-learning planners\nacross a wide range of planning competition domains.",
+    "authors": [
+        "Sungwook Yoon",
+        "Alan Fern",
+        "Robert Givan"
+    ],
+    "id": "yoon08a",
+    "issue": 23,
+    "pages": [
+        683,
+        718
+    ],
+    "title": "Learning Control Knowledge for Forward Search Planning",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "It is well known that solutions to the nonlinear independent\ncomponent analysis (ICA) problem are highly non-unique. In this\npaper we propose the \"minimal nonlinear distortion\" (MND)\nprinciple for tackling the ill-posedness of nonlinear ICA\nproblems. MND prefers the nonlinear ICA solution with the\nestimated mixing procedure as close as possible to linear,\namong all possible solutions.\n It also helps to avoid local optima in the\nsolutions. To achieve MND, we exploit a regularization term to\nminimize the mean square error between the nonlinear mixing\nmapping and the best-fitting linear one. The effect of MND on\nthe inherent trivial and non-trivial indeterminacies in\nnonlinear ICA solutions is investigated. Moreover, we show that\nlocal MND is closely related to the smoothness regularizer\npenalizing large curvature, which provides another useful\nregularization\ncondition for nonlinear ICA.\nExperiments on synthetic data show the usefulness of the MND\nprinciple for separating various nonlinear mixtures.\nFinally, as an application, we use nonlinear ICA with MND to\nseparate daily returns of a set of stocks in Hong Kong, and the\nlinear causal relations among them are successfully discovered.\nThe resulting causal relations give some interesting insights\ninto the stock market. Such a result can not be achieved by\nlinear ICA. Simulation studies also verify that when doing\ncausality discovery, sometimes one should not ignore the\nnonlinear distortion in the data generation procedure, even if\nit is weak.",
+    "authors": [
+        "Kun Zhang",
+        "Laiwan Chan"
+    ],
+    "id": "zhang08b",
+    "issue": 80,
+    "pages": [
+        2455,
+        2487
+    ],
+    "title": "Minimal Nonlinear Distortion Principle for Nonlinear Independent Component Analysis",
+    "volume": "9",
+    "year": "2008"
+}

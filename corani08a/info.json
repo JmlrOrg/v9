@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper, the naive credal classifier, which is a\nset-valued counterpart of naive Bayes, is extended to a general and\nflexible treatment of incomplete data, yielding a new classifier\ncalled <i>naive credal classifier 2</i> (NCC2). The new classifier delivers\nclassifications that are reliable even in the presence of small sample\nsizes and missing values.  Extensive empirical evaluations show that,\nby issuing set-valued classifications, NCC2 is able to isolate and\nproperly deal with instances that are hard to classify (on which naive\nBayes accuracy drops considerably), and to perform as well as naive\nBayes on the other instances. The experiments point to a general\nproblem: they show that with missing values, empirical evaluations may\nnot reliably estimate the accuracy of a traditional classifier, such\nas naive Bayes. This phenomenon adds even more value to the robust\napproach to classification implemented by NCC2.",
+    "authors": [
+        "Giorgio Corani",
+        "Marco Zaffalon"
+    ],
+    "id": "corani08a",
+    "issue": 19,
+    "pages": [
+        581,
+        621
+    ],
+    "title": "Learning Reliable Classifiers From Small or Incomplete Data Sets: The Naive Credal Classifier 2",
+    "volume": "9",
+    "year": "2008"
+}

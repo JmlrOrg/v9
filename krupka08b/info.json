@@ -1,0 +1,17 @@
+{
+    "abstract": "Feature selection is the task of choosing a small subset of features\nthat is sufficient to predict the target labels well. Here, instead\nof trying to directly determine which features are better, we attempt\nto learn the properties of good features. For this purpose we assume\nthat each feature is represented by a set of properties, referred\nto as <i>meta-features</i>. This approach enables prediction of the\nquality of features without measuring their value on the training\ninstances. We use this ability to devise new selection algorithms\nthat can efficiently search for new good features in the presence\nof a huge number of features, and to dramatically reduce the number\nof feature measurements needed. We demonstrate our algorithms on a\nhandwritten digit recognition problem and a visual object category\nrecognition problem. In addition, we show how this novel viewpoint\nenables derivation of better generalization bounds for the joint learning\nproblem of selection and classification, and how it contributes to\na better understanding of the problem. Specifically, in the context\nof object recognition, previous works showed that it is possible to\nfind one set of features which fits most object categories (aka a\n<i>universal dictionary</i>). Here we use our framework to analyze\none such universal dictionary and find that the quality of features\nin this dictionary can be predicted accurately by its meta-features.",
+    "authors": [
+        "Eyal Krupka",
+        "Amir Navot",
+        "Naftali Tishby"
+    ],
+    "id": "krupka08b",
+    "issue": 76,
+    "pages": [
+        2349,
+        2376
+    ],
+    "title": "Learning to Select Features using their Properties",
+    "volume": "9",
+    "year": "2008"
+}

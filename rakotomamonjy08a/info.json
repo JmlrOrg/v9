@@ -1,0 +1,18 @@
+{
+    "abstract": "Multiple kernel learning (MKL) aims at simultaneously learning a\nkernel and the associated predictor in supervised learning\nsettings. For the support vector machine, an efficient and general\nmultiple kernel learning algorithm, based on semi-infinite linear\nprogramming, has been recently proposed.  This approach has opened new\nperspectives since it makes MKL tractable for large-scale problems, by\niteratively using existing support vector machine code. However, it\nturns out that this iterative algorithm needs numerous iterations for\nconverging towards a reasonable solution.  In this paper, we address\nthe MKL problem through a weighted 2-norm regularization formulation\nwith an additional constraint on the weights that encourages sparse\nkernel combinations.  Apart from learning the combination, we solve a\nstandard SVM optimization problem, where the kernel is defined as a\nlinear combination of multiple kernels.  We propose an algorithm,\nnamed SimpleMKL, for solving this MKL problem and provide a new\ninsight on MKL algorithms based on mixed-norm regularization by\nshowing that the two approaches are equivalent.  We show how SimpleMKL\ncan be applied beyond binary classification, for problems like\nregression, clustering (one-class classification) or multiclass\nclassification.  Experimental results show that the proposed algorithm\nconverges rapidly and that its efficiency compares favorably to other\nMKL algorithms.  Finally, we illustrate the usefulness of MKL for some\nregressors based on wavelet kernels and on some model selection\nproblems related to multiclass classification problems.",
+    "authors": [
+        "Alain Rakotomamonjy",
+        "Francis R. Bach",
+        "St&#233;phane Canu",
+        "Yves Grandvalet"
+    ],
+    "id": "rakotomamonjy08a",
+    "issue": 82,
+    "pages": [
+        2491,
+        2521
+    ],
+    "title": "SimpleMKL",
+    "volume": "9",
+    "year": "2008"
+}

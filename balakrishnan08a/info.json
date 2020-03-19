@@ -1,0 +1,16 @@
+{
+    "abstract": "Classifiers favoring sparse solutions, such as support vector\nmachines, relevance vector machines, LASSO-regression based\nclassifiers, etc., provide competitive methods for\nclassification problems in high dimensions.  However, current\nalgorithms for training sparse classifiers typically scale quite\nunfavorably with respect to the number of training examples. This\npaper proposes online and multi-pass algorithms for training\nsparse linear classifiers for high dimensional data. These\nalgorithms have computational complexity and memory requirements\nthat make learning on massive data sets feasible. The central idea\nthat makes this possible is a straightforward quadratic\napproximation to the likelihood function.",
+    "authors": [
+        "Suhrid Balakrishnan",
+        "David Madigan"
+    ],
+    "id": "balakrishnan08a",
+    "issue": 9,
+    "pages": [
+        313,
+        337
+    ],
+    "title": "Algorithms for Sparse Linear Classifiers in the Massive Data Setting",
+    "volume": "9",
+    "year": "2008"
+}

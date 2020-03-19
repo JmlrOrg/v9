@@ -1,0 +1,16 @@
+{
+    "abstract": "Feature ranking is a fundamental machine learning task with various\napplications, including feature selection and decision tree learning.\nWe describe and analyze a new feature ranking method that supports\ncategorical features with a large number of possible values. We show\nthat existing ranking criteria rank a feature according to the\n<i>training</i> error of a predictor based on the feature.  This\napproach can fail when ranking categorical features with many values.\nWe propose the Ginger ranking criterion, that estimates the\n<i>generalization</i> error of the predictor associated with the Gini\nindex.  We show that for almost all training sets, the Ginger\ncriterion produces an accurate estimation of the true generalization\nerror, regardless of the number of values in a categorical feature. We\nalso address the question of finding the optimal predictor that is\nbased on a single categorical feature. It is shown that the predictor\nassociated with the misclassification error criterion has the minimal\nexpected generalization error. We bound the bias of this predictor\nwith respect to the generalization error of the Bayes optimal\npredictor, and analyze its concentration properties.  We demonstrate\nthe efficiency of our approach for feature selection and for learning\ndecision trees in a series of experiments with synthetic and natural\ndata sets.",
+    "authors": [
+        "Sivan Sabato",
+        "Shai Shalev-Shwartz"
+    ],
+    "id": "sabato08a",
+    "issue": 36,
+    "pages": [
+        1083,
+        1114
+    ],
+    "title": "Ranking Categorical Features Using Generalization Properties",
+    "volume": "9",
+    "year": "2008"
+}

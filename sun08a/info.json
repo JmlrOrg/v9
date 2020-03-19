@@ -1,0 +1,16 @@
+{
+    "abstract": "Binary matrices, and their associated submatrices of 1s, play a\ncentral role in the study of random bipartite graphs and in core data\nmining problems such as frequent itemset mining (FIM).  Motivated by\nthese connections, this paper addresses several statistical questions\nregarding submatrices of 1s in a random binary matrix with independent\nBernoulli entries.  We establish a three-point concentration result,\nand a related probability bound, for the size of the largest square\nsubmatrix of 1s in a square Bernoulli matrix, and extend these results\nto non-square matrices and submatrices with fixed aspect ratios.  We\nthen consider the noise sensitivity of frequent itemset mining under a\nsimple binary additive noise model, and show that, even at small noise\nlevels, large blocks of 1s leave behind fragments of only logarithmic\nsize.  As a result, standard FIM algorithms, which search only for\nsubmatrices of 1s, cannot directly recover such blocks when noise is\npresent.  On the positive side, we show that an error-tolerant\nfrequent itemset criterion can recover a submatrix of 1s against a\nbackground of 0s plus noise, even when the size of the submatrix of 1s\nis very small.",
+    "authors": [
+        "Xing Sun",
+        "Andrew B. Nobel"
+    ],
+    "id": "sun08a",
+    "issue": 79,
+    "pages": [
+        2431,
+        2453
+    ],
+    "title": "On the Size and Recovery of Submatrices of Ones in a Random Binary Matrix",
+    "volume": "9",
+    "year": "2008"
+}

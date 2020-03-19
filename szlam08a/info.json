@@ -1,0 +1,17 @@
+{
+    "abstract": "Harmonic analysis and diffusion on discrete data has been shown to\nlead to state-of-the-art algorithms for machine learning tasks,\nespecially in the context of semi-supervised and transductive\nlearning.  The success of these algorithms rests on the assumption\nthat the function(s) to be studied (learned, interpolated, etc.) are\nsmooth with respect to the geometry of the data. In this paper we\npresent a method for modifying the given geometry so the function(s)\nto be studied are smoother with respect to the modified geometry,\nand thus more amenable to treatment using harmonic analysis methods.\nAmong the many possible applications, we consider the problems of\nimage denoising and transductive classification.  In both settings,\nour approach improves on standard diffusion based methods.",
+    "authors": [
+        "Arthur D. Szlam",
+        "Mauro Maggioni",
+        "Ronald R. Coifman"
+    ],
+    "id": "szlam08a",
+    "issue": 54,
+    "pages": [
+        1711,
+        1739
+    ],
+    "title": "Regularization on Graphs with Function-adapted Diffusion Processes",
+    "volume": "9",
+    "year": "2008"
+}

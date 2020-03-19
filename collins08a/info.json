@@ -1,0 +1,19 @@
+{
+    "abstract": "Log-linear and maximum-margin models are two commonly-used methods in\nsupervised machine learning, and are frequently used in structured\nprediction problems.  Efficient learning of parameters in these models\nis therefore an important problem, and becomes a key factor when\nlearning from very large data sets.  This paper describes\nexponentiated gradient (EG) algorithms for training such models, where\nEG updates are applied to the convex dual of either the log-linear or\nmax-margin objective function; the dual in both the log-linear and\nmax-margin cases corresponds to minimizing a convex function with\nsimplex constraints.  We study both batch and online variants of the\nalgorithm, and provide rates of convergence for both cases.  In the\nmax-margin case, <i>O</i>(1/&#949;) EG updates are required to\nreach a given accuracy &#949; in the dual; in contrast, for\nlog-linear models only <i>O</i>(log(1/&#949;)) updates are\nrequired. For both the max-margin and log-linear cases, our bounds\nsuggest that the online EG algorithm requires a factor of <i>n</i> less\ncomputation to reach a desired accuracy than the batch EG algorithm,\nwhere <i>n</i> is the number of training examples. Our experiments confirm\nthat the online algorithms are much faster than the batch algorithms\nin practice.  We describe how the EG updates factor in a convenient\nway for structured prediction problems, allowing the algorithms to be\nefficiently applied to problems such as sequence learning or natural\nlanguage parsing.  We perform extensive evaluation of the algorithms,\ncomparing them to L-BFGS and stochastic gradient descent for\nlog-linear models, and to SVM-Struct for max-margin\nmodels. The algorithms are applied to a multi-class\nproblem as well as to a more complex large-scale parsing task. In all\nthese settings, the EG algorithms presented here outperform the other\nmethods.",
+    "authors": [
+        "Michael Collins",
+        "Amir Globerson",
+        "Terry Koo",
+        "Xavier Carreras",
+        "Peter L. Bartlett"
+    ],
+    "id": "collins08a",
+    "issue": 57,
+    "pages": [
+        1775,
+        1822
+    ],
+    "title": "Exponentiated Gradient Algorithms for Conditional Random Fields and Max-Margin Markov Networks",
+    "volume": "9",
+    "year": "2008"
+}

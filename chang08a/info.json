@@ -1,0 +1,17 @@
+{
+    "abstract": "Linear support vector machines (SVM) are useful for classifying\nlarge-scale sparse data.  Problems with sparse features are common\nin applications such as document classification and natural language\nprocessing.  In this paper, we propose a novel coordinate descent\nalgorithm for training linear SVM with the L2-loss function.  \nAt each step, the proposed method minimizes a one-variable sub-problem\nwhile fixing other variables.  The sub-problem is solved by Newton\nsteps with the line search technique.  The procedure globally\nconverges at the linear rate. \nAs each sub-problem involves only values of a corresponding feature, the \nproposed approach is \nsuitable when accessing a feature is \nmore convenient than accessing an instance.\nExperiments show that our method is more\nefficient and stable than state of the art methods such as Pegasos\nand TRON.",
+    "authors": [
+        "Kai-Wei Chang",
+        "Cho-Jui Hsieh",
+        "Chih-Jen Lin"
+    ],
+    "id": "chang08a",
+    "issue": 44,
+    "pages": [
+        1369,
+        1398
+    ],
+    "title": "Coordinate Descent Method for Large-scale L2-loss Linear Support Vector Machines",
+    "volume": "9",
+    "year": "2008"
+}

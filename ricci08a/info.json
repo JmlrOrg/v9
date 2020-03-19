@@ -1,0 +1,17 @@
+{
+    "abstract": "Most approaches to structured output prediction rely on a hypothesis space\nof <i>prediction functions</i> that compute their output by maximizing\na linear <i>scoring function</i>.\nIn this paper we present two novel learning algorithms for this\nhypothesis class, and a statistical analysis of their performance.\nThe methods rely on efficiently computing the first two moments\nof the scoring function over the output space, and using them to\ncreate convex objective functions for training.\nWe report extensive experimental results for sequence alignment,\nnamed entity recognition, and RNA secondary structure prediction.",
+    "authors": [
+        "Elisa Ricci",
+        "Tijl De Bie",
+        "Nello Cristianini"
+    ],
+    "id": "ricci08a",
+    "issue": 93,
+    "pages": [
+        2803,
+        2846
+    ],
+    "title": "Magic Moments for Structured Output Prediction",
+    "volume": "9",
+    "year": "2008"
+}

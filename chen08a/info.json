@@ -1,0 +1,17 @@
+{
+    "abstract": "In structured classification problems, there is a direct conflict\nbetween expressive models and efficient inference: while graphical\nmodels such as Markov random fields or factor graphs can represent\narbitrary dependences among instance labels, the cost of inference via\nbelief propagation in these models grows rapidly as the graph\nstructure becomes more complicated.  One important source of\ncomplexity in belief propagation is the need to marginalize large\nfactors to compute messages.  This operation takes time exponential in\nthe number of variables in the factor, and can limit the\nexpressiveness of the models we can use.  In this paper, we study a\nnew class of potential functions, which we call decomposable\n<i>k</i>-way potentials, and provide efficient algorithms for\ncomputing messages from these potentials during belief propagation.\nWe believe these new potentials provide a good balance between\nexpressive power and efficient inference in practical structured\nclassification problems.  We discuss three instances of decomposable\npotentials: the associative Markov network potential, the nested\njunction tree, and a new type of potential which we call the voting\npotential.  We use these potentials to classify images of protein\nsubcellular location patterns in groups of cells.  Classifying\nsubcellular location patterns can help us answer many important\nquestions in computational biology, including questions about how\nvarious treatments affect the synthesis and behavior of proteins and\nnetworks of proteins within a cell.  Our new representation and\nalgorithm lead to substantial improvements in both inference speed and\nclassification accuracy.",
+    "authors": [
+        "Shann-Ching Chen",
+        "Geoffrey J. Gordon",
+        "Robert F. Murphy"
+    ],
+    "id": "chen08a",
+    "issue": 22,
+    "pages": [
+        651,
+        682
+    ],
+    "title": "Graphical Models for Structured Classification, with an Application to Interpreting Images of Protein Subcellular Location Patterns",
+    "volume": "9",
+    "year": "2008"
+}

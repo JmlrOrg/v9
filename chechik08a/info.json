@@ -1,0 +1,19 @@
+{
+    "abstract": "We consider the problem of learning classifiers in structured domains,\nwhere some objects have a subset of features that are inherently\nabsent due to complex relationships between the features.  Unlike the\ncase where a feature exists but its value is not observed, here we\nfocus on the case where a feature may not even exist (structurally\nabsent) for some of the samples. The common approach for handling\nmissing features in discriminative models is to first complete their\nunknown values, and then use a standard classification procedure over\nthe completed data. This paper focuses on features that are known to\nbe non-existing, rather than have an unknown value. We show how\nincomplete data can be classified <i>directly</i> without any\ncompletion of the missing features using a max-margin learning\nframework. We formulate an objective function, based on the geometric\ninterpretation of the margin, that aims to maximize the margin of each\nsample in its own relevant subspace. In this formulation, the linearly\nseparable case can be transformed into a binary search over a series\nof second order cone programs (SOCP), a convex problem that can be\nsolved efficiently. We also describe two approaches for optimizing the\ngeneral case: an approximation that can be solved as a standard\nquadratic program (QP) and an iterative approach for solving the exact\nproblem.  By avoiding the pre-processing phase in which the data is\ncompleted, both of these approaches could offer considerable\ncomputational savings. More importantly, we show that the elegant\nhandling of missing values by our approach allows it to both\noutperform other methods when the missing values have non-trivial\nstructure, and be competitive with other methods when the values are\nmissing at random. We demonstrate our results on several standard\nbenchmarks and two real-world problems: edge prediction in metabolic\npathways, and automobile detection in natural images.",
+    "authors": [
+        "Gal Chechik",
+        "Geremy Heitz",
+        "Gal Elidan",
+        "Pieter Abbeel",
+        "Daphne Koller"
+    ],
+    "id": "chechik08a",
+    "issue": 0,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Max-margin Classification of Data with Absent Features",
+    "volume": "9",
+    "year": "2008"
+}

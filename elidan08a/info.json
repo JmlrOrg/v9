@@ -1,0 +1,16 @@
+{
+    "abstract": "With the increased availability of data for complex domains, it is\ndesirable to learn Bayesian network structures that are sufficiently\nexpressive for generalization while at the same time allow for\ntractable inference. While the method of thin junction trees can, in\nprinciple, be used for this purpose, its fully greedy nature makes it\nprone to overfitting, particularly when data is scarce. In this work\nwe present a novel method for learning Bayesian networks of bounded\ntreewidth that employs global structure modifications and that is\npolynomial both in the size of the graph and the treewidth bound. At\nthe heart of our method is a dynamic triangulation that we update in a\nway that facilitates the addition of chain structures that increase\nthe bound on the model's treewidth by at most one.  We demonstrate the\neffectiveness of our \"treewidth-friendly\" method on several\nreal-life data sets and show that it is superior to the greedy\napproach as soon as the bound on the treewidth is nontrivial.\nImportantly, we also show that by making use of global operators, we\nare able to achieve better generalization even when learning Bayesian\nnetworks of unbounded treewidth.",
+    "authors": [
+        "Gal Elidan",
+        "Stephen Gould"
+    ],
+    "id": "elidan08a",
+    "issue": 90,
+    "pages": [
+        2699,
+        2731
+    ],
+    "title": "Learning Bounded Treewidth Bayesian Networks",
+    "volume": "9",
+    "year": "2008"
+}

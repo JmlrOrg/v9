@@ -1,0 +1,17 @@
+{
+    "abstract": "In this paper we introduce an improved implementation of locally weighted\nprojection regression (LWPR), a supervised learning algorithm that is\ncapable of handling high-dimensional input data. As the key features,\nour code supports multi-threading, is available for multiple\nplatforms, and provides wrappers for several programming languages.",
+    "authors": [
+        "Stefan Klanke",
+        "Sethu Vijayakumar",
+        "Stefan Schaal"
+    ],
+    "id": "klanke08a",
+    "issue": 20,
+    "pages": [
+        623,
+        626
+    ],
+    "title": "A Library for Locally Weighted Projection Regression",
+    "volume": "9",
+    "year": "2008"
+}

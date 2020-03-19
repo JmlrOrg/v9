@@ -1,0 +1,18 @@
+{
+    "abstract": "Consider data consisting of pairwise measurements, such as presence or\nabsence of links between pairs of objects.  These data arise, for\ninstance, in the analysis of protein interactions and gene regulatory\nnetworks, collections of author-recipient email, and social networks.\nAnalyzing pairwise measurements with probabilistic models requires\nspecial assumptions, since the usual independence or exchangeability\nassumptions no longer hold.  Here we introduce a class of variance\nallocation models for pairwise measurements: mixed membership\nstochastic blockmodels.  These models combine global parameters that\ninstantiate dense patches of connectivity (blockmodel) with local\nparameters that instantiate node-specific variability in the\nconnections (mixed membership). We develop a general variational\ninference algorithm for fast approximate posterior inference. We\ndemonstrate the advantages of mixed membership stochastic blockmodels\nwith applications to social networks and protein interaction networks.",
+    "authors": [
+        "Edoardo M. Airoldi",
+        "David M. Blei",
+        "Stephen E. Fienberg",
+        "Eric P. Xing"
+    ],
+    "id": "airoldi08a",
+    "issue": 64,
+    "pages": [
+        1981,
+        2014
+    ],
+    "title": "Mixed Membership Stochastic Blockmodels",
+    "volume": "9",
+    "year": "2008"
+}

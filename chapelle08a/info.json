@@ -1,0 +1,17 @@
+{
+    "abstract": "Due to its wide applicability, the problem of semi-supervised\nclassification is attracting increasing attention in machine learning.\nSemi-Supervised Support Vector Machines (S<sup>3</sup>VMs) are based on applying\nthe margin maximization principle to both labeled and unlabeled\nexamples.  Unlike SVMs, their formulation leads to a non-convex\noptimization problem.  A suite of algorithms have recently been\nproposed for solving S<sup>3</sup>VMs.  This paper reviews key ideas in this\nliterature. The performance and behavior of various S<sup>3</sup>VMs algorithms\nis studied together, under a common experimental setting.",
+    "authors": [
+        "Olivier Chapelle",
+        "Vikas Sindhwani",
+        "Sathiya S. Keerthi"
+    ],
+    "id": "chapelle08a",
+    "issue": 6,
+    "pages": [
+        203,
+        233
+    ],
+    "title": "Optimization Techniques for Semi-Supervised Support Vector Machines",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "We introduce a computationally feasible, \"constructive\" active\nlearning method for binary classification. The learning algorithm is\ninitially formulated for separable classification problems, for a\nhyperspherical data space with constant data density, and for great\nspheres as classifiers. In order to reduce computational complexity\nthe version space is restricted to spherical simplices and learning\nprocedes by subdividing the edges of maximal length. We show that this\nprocedure optimally reduces a tight upper bound on the generalization\nerror. The method is then extended to other separable classification\nproblems using products of spheres as data spaces and isometries\ninduced by charts of the sphere. An upper bound is provided for the\nprobability of disagreement between classifiers (hence the\ngeneralization error) for non-constant data densities on the sphere.\nThe emphasis of this work lies on providing mathematically exact\nperformance estimates for active learning strategies.",
+    "authors": [
+        "Falk-Florian Henrich",
+        "Klaus Obermayer"
+    ],
+    "id": "henrich08a",
+    "issue": 4,
+    "pages": [
+        105,
+        130
+    ],
+    "title": "Active Learning by Spherical Subdivision",
+    "volume": "9",
+    "year": "2008"
+}

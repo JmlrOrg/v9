@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper introduces a new PAC transductive error bound for\nclassification. The method uses information from the training examples\nand inputs of working examples to develop a set of likely assignments\nto outputs of the working examples. A likely assignment with maximum\nerror determines the bound. The method is very effective for small\ndata sets.",
+    "authors": [
+        "Eric Bax",
+        "Augusto Callejas"
+    ],
+    "id": "bax08a",
+    "issue": 27,
+    "pages": [
+        859,
+        891
+    ],
+    "title": "An Error Bound Based on a Worst Likely Assignment",
+    "volume": "9",
+    "year": "2008"
+}

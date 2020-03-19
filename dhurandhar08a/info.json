@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper we use the methodology introduced by Dhurandhar and Dobra (2009) for\nanalyzing the error of classifiers and the model selection measures,\nto analyze decision tree algorithms. The methodology consists of\nobtaining parametric expressions for the moments of the generalization\nerror (GE) for the classification model of interest, followed by\nplotting these expressions for interpretability. The major challenge\nin applying the methodology to decision trees, the main theme of this\nwork, is customizing the generic expressions for the moments of GE to\nthis particular classification algorithm.  The specific contributions\nwe make in this paper are: (a) we primarily characterize a subclass of\ndecision trees namely, Random decision trees, (b) we discuss how the\nanalysis extends to other decision tree algorithms and (c) in order to\nextend the analysis to certain model selection measures, we generalize\nthe relationships between the moments of GE and moments of the model\nselection measures given in (Dhurandhar and Dobra, 2009) to randomized classification\nalgorithms.  An empirical comparison of the proposed method with Monte\nCarlo and distribution free bounds obtained using Breiman's formula,\ndepicts the advantages of the method in terms of running time and\naccuracy. It thus showcases the use of the deployed methodology as an\nexploratory tool to study learning algorithms.",
+    "authors": [
+        "Amit Dhurandhar",
+        "Alin Dobra"
+    ],
+    "id": "dhurandhar08a",
+    "issue": 75,
+    "pages": [
+        2321,
+        2348
+    ],
+    "title": "Probabilistic Characterization of Random Decision Trees",
+    "volume": "9",
+    "year": "2008"
+}

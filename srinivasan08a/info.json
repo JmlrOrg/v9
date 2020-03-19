@@ -1,0 +1,16 @@
+{
+    "abstract": "The use of computational models is\nincreasingly expected to play an important role in predicting the\nbehaviour of biological systems.\nModels are being sought at different scales of biological\norganisation namely: sub-cellular,\ncellular, tissue, organ, organism and ecosystem; with a view of\nidentifying how different components are connected together, how they\nare controlled and how they behave when functioning as a system. Except\nfor very simple biological processes, system identification from\nfirst principles can be extremely difficult. This has brought into\nfocus automated techniques for constructing\nmodels using data of system behaviour. Such techniques face three\nprincipal issues: (1) The model representation language must be rich enough\nto capture system behaviour; (2) The system identification technique\nmust be powerful enough to identify substantially complex models; and (3)\nThere may not be sufficient data to obtain both the model's structure\nand precise estimates of all of its parameters. In this paper, we\naddress these issues\nin the following ways: (1) Models are represented in an expressive\nsubset of first-order logic. Specifically, they are expressed as\nlogic programs; (2) System identification is done using techniques\ndeveloped in Inductive Logic Programming (ILP). This allows the\nidentification of first-order logic models from data. Specifically, we\nemploy an incremental approach in which increasingly complex models are\nconstructed from simpler ones using snapshots of system behaviour; and\n(3) We restrict ourselves to \"qualitative\" models. These are\nnon-parametric: thus, usually less data are required than for\nidentifying parametric quantitative models. A further advantage\nis that the data need not be precise numerical observations\n(instead, they are abstractions like positive, negative, zero,\nincreasing, decreasing and so on).\nWe describe incremental construction\nof qualitative models\nusing a simple physical system and demonstrate its application\nto identification of models at four scales of biological\norganisation, namely: (a) a predator-prey model at the ecosystem level;\n(b) a model for the human lung at the organ level; (c) a model for regulation\nof glucose by insulin in the human body at the extra-cellular\nlevel; and (d) a model for\nthe glycolysis metabolic pathway at the cellular level.",
+    "authors": [
+        "Ashwin Srinivasan",
+        "Ross D. King"
+    ],
+    "id": "srinivasan08a",
+    "issue": 47,
+    "pages": [
+        1475,
+        1533
+    ],
+    "title": "Incremental Identification of Qualitative Models of Biological Systems using Inductive Logic Programming",
+    "volume": "9",
+    "year": "2008"
+}

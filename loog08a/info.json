@@ -1,0 +1,15 @@
+{
+    "abstract": "In this JMLR volume, Ye (2008) demonstrates the essential\nequivalence of two sets of solutions to a generalized Fisher criterion\nused for linear dimensionality reduction (see Ye, 2005; Loog, 2007).\nHere, I point out the basic flaw in this new contribution.",
+    "authors": [
+        "Marco Loog"
+    ],
+    "id": "loog08a",
+    "issue": 81,
+    "pages": [
+        2489,
+        2490
+    ],
+    "title": "On the Equivalence of Linear Dimensionality-Reducing Transformations",
+    "volume": "9",
+    "year": "2008"
+}

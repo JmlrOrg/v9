@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nWe propose a highly efficient framework for penalized likelihood kernel\nmethods applied to multi-class models with a large, structured set of classes.\nAs opposed to many previous approaches which try to decompose the fitting\nproblem into many smaller ones, we focus on a Newton optimization of the\ncomplete model, making use of model structure and linear conjugate gradients\nin order to approximate Newton search directions. Crucially, our learning\nmethod is based entirely on matrix-vector multiplication primitives with the\nkernel matrices and their derivatives, allowing straightforward specialization\nto new kernels, and focusing code optimization efforts to these primitives\nonly.\n</p>\n<p>\nKernel parameters are learned automatically, by maximizing the cross-validation\nlog likelihood in a gradient-based way, and predictive probabilities are\nestimated. We demonstrate our approach on large scale text classification\ntasks with hierarchical structure on thousands of classes, achieving\nstate-of-the-art results in an order of magnitude less time than previous\nwork.\n</p>\n<p>\nParts of this work appeared in the conference paper Seeger (2007).\n</p>",
+    "authors": [
+        "Matthias W. Seeger"
+    ],
+    "id": "seeger08b",
+    "issue": 38,
+    "pages": [
+        1147,
+        1178
+    ],
+    "title": "Cross-Validation Optimization for Large Scale Structured Classification Kernel Methods",
+    "volume": "9",
+    "year": "2008"
+}

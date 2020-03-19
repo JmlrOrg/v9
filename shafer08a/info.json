@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nConformal prediction uses past experience to determine precise levels\nof confidence in new predictions.  Given an error probability\n&#949;, together with a method that makes a prediction <i>&#375;</i>\nof a label <i>y</i>, it produces a set of labels, typically containing\n<i>&#375;</i>, that also contains <i>y</i> with probability 1 &#150; &#949;.\nConformal prediction can be applied to any method for producing\n<i>&#375;</i>: a nearest-neighbor method, a support-vector machine, ridge\nregression, etc.\n</p>\n<p>      \nConformal prediction is designed for an on-line setting in which\nlabels are predicted successively, each one being revealed before the\nnext is predicted.  The most novel and valuable feature of conformal\nprediction is that if the successive examples are sampled\nindependently from the same distribution, then the successive\npredictions will be right 1 &#150; &#949; of the time, even though they\nare based on an accumulating data set rather than on independent data\nsets.\n</p>\n<p>\nIn addition to the model under which successive examples are sampled\nindependently, other on-line compression models can also use conformal\nprediction.  The widely used Gaussian linear model is one of these.\n</p>\n<p>\nThis tutorial presents a self-contained account of the theory of\nconformal prediction and works through several numerical examples.  A\nmore comprehensive treatment of the topic is provided in\n<i>Algorithmic Learning in a Random World</i>, by Vladimir Vovk,\nAlex Gammerman, and Glenn Shafer (Springer, 2005).\n</p>",
+    "authors": [
+        "Glenn Shafer",
+        "Vladimir Vovk"
+    ],
+    "id": "shafer08a",
+    "issue": 11,
+    "pages": [
+        371,
+        421
+    ],
+    "title": "A Tutorial on Conformal Prediction",
+    "volume": "9",
+    "year": "2008"
+}

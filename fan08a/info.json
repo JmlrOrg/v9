@@ -1,0 +1,19 @@
+{
+    "abstract": "LIBLINEAR is an open source library for large-scale linear\nclassification.  It supports logistic regression and linear support\nvector machines.  We provide easy-to-use command-line tools and\nlibrary calls for users and developers.  \nComprehensive documents are available for both beginners and advanced\nusers.  Experiments demonstrate that LIBLINEAR is very efficient on\nlarge sparse data sets.",
+    "authors": [
+        "Rong-En Fan",
+        "Kai-Wei Chang",
+        "Cho-Jui Hsieh",
+        "Xiang-Rui Wang",
+        "Chih-Jen Lin"
+    ],
+    "id": "fan08a",
+    "issue": 60,
+    "pages": [
+        1871,
+        1874
+    ],
+    "title": "LIBLINEAR: A Library for Large Linear Classification",
+    "volume": "9",
+    "year": "2008"
+}

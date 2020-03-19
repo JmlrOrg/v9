@@ -1,0 +1,16 @@
+{
+    "abstract": "Web sites must forecast Web page views in order to plan computer\nresource allocation and estimate upcoming revenue and advertising\ngrowth.  In this paper, we focus on extracting trends and seasonal\npatterns from page view series, two dominant factors in the variation\nof such series.  We investigate the Holt-Winters procedure and a state\nspace model for making relatively short-term prediction.  It is found\nthat Web page views exhibit strong impulsive changes occasionally.\nThe impulses cause large prediction errors long after their\noccurrences.  A method is developed to identify impulses and to\nalleviate their damage on prediction.  We also develop a long-range\ntrend and season extraction method, namely the <i>Elastic Smooth\nSeason Fitting (ESSF)</i> algorithm, to compute scalable and smooth\nyearly seasons.  ESSF derives the yearly season by minimizing the\nresidual sum of squares under smoothness regularization, a quadratic\noptimization problem.  It is shown that for long-term prediction, ESSF\nimproves accuracy significantly over other methods that ignore the\nyearly seasonality.",
+    "authors": [
+        "Jia Li",
+        "Andrew W. Moore"
+    ],
+    "id": "li08a",
+    "issue": 72,
+    "pages": [
+        2217,
+        2250
+    ],
+    "title": "Forecasting Web Page Views: Methods and Observations",
+    "volume": "9",
+    "year": "2008"
+}

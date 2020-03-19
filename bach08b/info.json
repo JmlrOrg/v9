@@ -1,0 +1,15 @@
+{
+    "abstract": "We consider the least-square regression problem with regularization by\na block <i>l</i><sub>1</sub>-norm, that is, a sum of Euclidean norms over spaces\nof dimensions larger than one.  This problem, referred to as the group\nLasso, extends the usual regularization by the <i>l</i><sub>1</sub>-norm where all\nspaces have dimension one, where it is commonly referred to as the\nLasso. In this paper, we study the asymptotic group selection\nconsistency of the group Lasso. We derive necessary and sufficient\nconditions for the consistency of group Lasso under practical\nassumptions, such as model mis specification. When the linear\npredictors and Euclidean norms are replaced by functions and\nreproducing kernel Hilbert norms, the problem is usually referred to\nas multiple kernel learning and is commonly used for learning from\nheterogeneous data sources and for non linear variable\nselection. Using tools from functional analysis, and in particular\ncovar iance operators, we extend the consistency results to this\ninfinite dimensional case and also propose an adaptive scheme to\nobtain a consistent model estimate, even when the necessary condition\nrequired for the non adaptive scheme is not satisfied.",
+    "authors": [
+        "Francis R. Bach"
+    ],
+    "id": "bach08b",
+    "issue": 39,
+    "pages": [
+        1179,
+        1225
+    ],
+    "title": "Consistency of the Group Lasso and Multiple Kernel Learning",
+    "volume": "9",
+    "year": "2008"
+}

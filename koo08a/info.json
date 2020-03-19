@@ -1,0 +1,18 @@
+{
+    "abstract": "The support vector machine has been successful in a variety of\napplications. Also on the theoretical front, statistical properties\nof the support vector machine have been studied quite extensively\nwith a particular attention to its Bayes risk consistency under some\nconditions. In this paper, we study somewhat basic statistical\nproperties of the support vector machine yet to be investigated,\nnamely the asymptotic behavior of the coefficients of the linear\nsupport vector machine. A Bahadur type representation of the\ncoefficients is established under appropriate conditions, and their\nasymptotic normality and statistical variability are derived on the\nbasis of the representation. These asymptotic results do not only\nhelp further our understanding of the support vector machine, but\nalso they can be useful for related statistical inferences.",
+    "authors": [
+        "Ja-Yong Koo",
+        "Yoonkyung Lee",
+        "Yuwon Kim",
+        "Changyi Park"
+    ],
+    "id": "koo08a",
+    "issue": 43,
+    "pages": [
+        1343,
+        1368
+    ],
+    "title": "A Bahadur Representation of the Linear Support Vector Machine",
+    "volume": "9",
+    "year": "2008"
+}

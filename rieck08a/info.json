@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nEfficient and expressive comparison of sequences is an essential\nprocedure for learning with sequential data. In this article we\npropose a generic framework for computation of similarity measures for\nsequences, covering various kernel, distance and non-metric similarity\nfunctions. The basis for comparison is embedding of sequences using a\nformal language, such as a set of natural words, <i>k</i>-grams or all\ncontiguous subsequences. As realizations of the framework we provide\nlinear-time algorithms of different complexity and capabilities using\nsorted arrays, tries and suffix trees as underlying data structures.\n</p>\n\n<p>\nExperiments on data sets from bioinformatics, text processing and\ncomputer security illustrate the efficiency of the proposed\nalgorithms---enabling peak performances of up to 10<sup>6</sup>\npairwise comparisons per second. The utility of distances and\nnon-metric similarity measures for sequences as alternatives to string\nkernels is demonstrated in applications of text categorization,\nnetwork intrusion detection and transcription site recognition in DNA.\n</p>",
+    "authors": [
+        "Konrad Rieck",
+        "Pavel Laskov"
+    ],
+    "id": "rieck08a",
+    "issue": 1,
+    "pages": [
+        23,
+        48
+    ],
+    "title": "Linear-Time Computation of Similarity Measures for Sequential Data",
+    "volume": "9",
+    "year": "2008"
+}

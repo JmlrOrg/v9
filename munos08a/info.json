@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper we develop a theoretical analysis of the performance of\nsampling-based fitted value iteration (FVI) to solve infinite\nstate-space, discounted-reward Markovian decision processes (MDPs)\nunder the assumption that a generative model of the environment is\navailable. Our main results come in the form of finite-time bounds on\nthe performance of two versions of sampling-based FVI.  The\nconvergence rate results obtained allow us to show that both versions\nof FVI are well behaving in the sense that by using a sufficiently\nlarge number of samples for a large class of MDPs, arbitrary good\nperformance can be achieved with high probability.  An important\nfeature of our proof technique is that it permits the study of\nweighted <i>L<sup>p</sup></i>-norm performance bounds. As a result, our technique\napplies to a large class of function-approximation methods (e.g.,\nneural networks, adaptive regression trees, kernel machines, locally\nweighted learning), and our bounds scale well with the effective\nhorizon of the MDP. The bounds show a dependence on the stochastic\nstability properties of the MDP: they scale with the\ndiscounted-average concentrability of the future-state\ndistributions. They also depend on a new measure of the approximation\npower of the function space, the inherent Bellman residual, which\nreflects how well the function space is \"aligned\" with the dynamics\nand rewards of the MDP.  The conditions of the main result, as well as\nthe concepts introduced in the analysis, are extensively discussed and\ncompared to previous theoretical results.  Numerical experiments are\nused to substantiate the theoretical findings.",
+    "authors": [
+        "R&#233;mi Munos",
+        "Csaba Szepesv&#225;ri"
+    ],
+    "id": "munos08a",
+    "issue": 26,
+    "pages": [
+        815,
+        857
+    ],
+    "title": "Finite-Time Bounds for Fitted Value Iteration",
+    "volume": "9",
+    "year": "2008"
+}

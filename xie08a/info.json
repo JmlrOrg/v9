@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper, we propose a recursive method for structural learning\nof directed acyclic graphs (DAGs), in which a problem of structural\nlearning for a large DAG is first decomposed into two problems of\nstructural learning for two small vertex subsets, each of which is\nthen decomposed recursively into two problems of smaller subsets\nuntil none subset can be decomposed further. In our approach, search\nfor separators of a pair of variables in a large DAG is localized to\nsmall subsets, and thus the approach can improve the efficiency of\nsearches and the power of statistical tests for structural learning.\nWe show how the recent advances in the learning of undirected\ngraphical models can be employed to facilitate the decomposition.\nSimulations are given to demonstrate the performance of the proposed\nmethod.",
+    "authors": [
+        "Xianchao Xie",
+        "Zhi Geng"
+    ],
+    "id": "xie08a",
+    "issue": 13,
+    "pages": [
+        459,
+        483
+    ],
+    "title": "A Recursive Method for Structural Learning of Directed Acyclic Graphs",
+    "volume": "9",
+    "year": "2008"
+}

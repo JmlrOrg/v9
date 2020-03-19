@@ -1,0 +1,16 @@
+{
+    "abstract": "The computational complexities arising in motor control can be\nameliorated through the use of a library of motor synergies. We\npresent a new model, referred to as the Greedy Additive Regression\n(GAR) model, for learning a library of torque sequences, and for\nlearning the coefficients of a linear combination of sequences\nminimizing a cost function. From the perspective of numerical\noptimization, the GAR model is interesting because it creates a\nlibrary of \"local features\"---each sequence in the library is a\nsolution to a single training task---and learns to combine these\nsequences using a local optimization procedure, namely, additive\nregression. We speculate that learners with local representational\nprimitives and local optimization procedures will show good\nperformance on nonlinear tasks. The GAR model is also interesting\nfrom the perspective of motor control because it outperforms several\ncompeting models. Results using a simulated two-joint arm suggest\nthat the GAR model consistently shows excellent performance in the\nsense that it rapidly learns to perform novel, complex motor tasks.\nMoreover, its library is overcomplete and sparse, meaning that only\na small fraction of the stored torque sequences are used when\nlearning a new movement. The library is also robust in the sense\nthat, after an initial training period, nearly all novel movements\ncan be learned as additive combinations of sequences in the library,\nand in the sense that it shows good generalization when an arm's\ndynamics are altered between training and test conditions, such as\nwhen a payload is added to the arm. Lastly, the GAR model works well\nregardless of whether motor tasks are specified in joint space or\nCartesian space. We conclude that learning techniques using local\nprimitives and optimization procedures are viable and potentially\nimportant methods for motor control and possibly other domains, and\nthat these techniques deserve further examination by the artificial\nintelligence and cognitive science communities.",
+    "authors": [
+        "Manu Chhabra",
+        "Robert A. Jacobs"
+    ],
+    "id": "chhabra08a",
+    "issue": 48,
+    "pages": [
+        1535,
+        1558
+    ],
+    "title": "Learning to Combine Motor Primitives Via Greedy Additive Regression",
+    "volume": "9",
+    "year": "2008"
+}

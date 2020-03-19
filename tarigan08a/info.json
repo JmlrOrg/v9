@@ -1,0 +1,16 @@
+{
+    "abstract": "The success of support vector machines in binary classification relies on\nthe fact that hinge loss employed in the risk minimization targets the\nBayes rule. Recent research explores some extensions of this large margin\nbased method to the multicategory case. We show a moment bound for\nthe so-called multi-hinge loss minimizers based on\ntwo kinds of complexity constraints: entropy with bracketing and empirical\nentropy. Obtaining such a result based on the latter is harder than finding\none based on the former. We obtain fast rates of convergence that adapt to the \nunknown margin.",
+    "authors": [
+        "Bernadetta Tarigan",
+        "Sara A. van de Geer"
+    ],
+    "id": "tarigan08a",
+    "issue": 70,
+    "pages": [
+        2171,
+        2185
+    ],
+    "title": "A Moment Bound for Multi-hinge Classifiers",
+    "volume": "9",
+    "year": "2008"
+}

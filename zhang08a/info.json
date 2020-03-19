@@ -1,0 +1,15 @@
+{
+    "abstract": "Causal reasoning is primarily concerned with what would\nhappen to a system under external interventions. In particular, we\nare often interested in predicting the probability distribution of\nsome random variables that would result if some other variables\nwere <i>forced</i> to take certain values. One prominent approach\nto tackling this problem is based on causal Bayesian networks,\nusing directed acyclic graphs as <i>causal</i> diagrams to relate\npost-intervention probabilities to pre-intervention probabilities\nthat are estimable from observational data. However, such causal\ndiagrams are seldom fully testable given observational data. In\nconsequence, many causal discovery algorithms based on data-mining\ncan only output an equivalence class of causal diagrams (rather\nthan a single one). This paper is concerned with causal reasoning\ngiven an equivalence class of causal diagrams, represented by a\n(partial) <i>ancestral graph</i>. We present two main results. The\nfirst result extends Pearl (1995)'s celebrated <i>do-calculus</i>\nto the context of ancestral graphs. In the second result, we focus\non a key component of Pearl's calculus---the property of \n<i>invariance under interventions</i>, and give stronger graphical\nconditions for this property than those implied by the first\nresult. The second result also improves the earlier, similar\nresults due to Spirtes et al. (1993).",
+    "authors": [
+        "Jiji Zhang"
+    ],
+    "id": "zhang08a",
+    "issue": 46,
+    "pages": [
+        1437,
+        1474
+    ],
+    "title": "Causal Reasoning with Ancestral Graphs",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper presents a new method of model selection for regression\nproblems using the modulus of continuity.  For this purpose, we\nsuggest the prediction risk bounds of regression models using the\nmodulus of continuity which can be interpreted as the complexity of\nfunctions. We also present the model selection criterion referred to\nas the modulus of continuity information criterion (MCIC) which is\nderived from the suggested prediction risk bounds.  The suggested\nMCIC provides a risk estimate using the modulus of continuity for a\ntrained regression model (or an estimation function) while other\nmodel selection criteria such as the AIC and BIC use structural\ninformation such as the number of training parameters. As a result,\nthe suggested MCIC is able to discriminate the performances of\ntrained regression models, even with the same structure of training\nmodels.  To show the effectiveness of the proposed method, the\nsimulation for function approximation using the multilayer\nperceptrons (MLPs) was conducted.  Through the simulation for\nfunction approximation, it was demonstrated that the suggested MCIC\nprovides a good selection tool for nonlinear regression models, even\nwith the limited size of data.",
+    "authors": [
+        "Imhoi Koo",
+        "Rhee Man Kil"
+    ],
+    "id": "koo08b",
+    "issue": 86,
+    "pages": [
+        2607,
+        2633
+    ],
+    "title": "Model Selection for Regression with Continuous Kernel Functions Using the Modulus of Continuity",
+    "volume": "9",
+    "year": "2008"
+}

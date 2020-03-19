@@ -1,0 +1,16 @@
+{
+    "abstract": "The causal discovery from data is important for various scientific\ninvestigations. Because we cannot distinguish the different directed\nacyclic graphs (DAGs) in a Markov equivalence class learned from\nobservational data, we have to collect further information on causal\nstructures from experiments with external interventions. In this\npaper, we propose an active learning approach for discovering causal\nstructures in which we first find a Markov equivalence class from\nobservational data, and then we orient undirected edges in every\nchain component via intervention experiments separately. In the\nexperiments, some variables are manipulated through external\ninterventions. We discuss two kinds of intervention experiments,\nrandomized experiment and quasi-experiment. Furthermore, we give two\noptimal designs of experiments, a batch-intervention design and a\nsequential-intervention design, to minimize the number of\nmanipulated variables and the set of candidate structures based on\nthe minimax and the maximum entropy criteria. We show theoretically\nthat structural learning can be done locally in subgraphs of chain\ncomponents without need of checking illegal v-structures and cycles\nin the whole network and that a Markov equivalence subclass obtained\nafter each intervention can still be depicted as a chain graph.",
+    "authors": [
+        "Yang-Bo He",
+        "Zhi Geng"
+    ],
+    "id": "he08a",
+    "issue": 83,
+    "pages": [
+        2523,
+        2547
+    ],
+    "title": "Active Learning of Causal Networks with Intervention Experiments and Optimal Designs",
+    "volume": "9",
+    "year": "2008"
+}

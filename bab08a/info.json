@@ -1,0 +1,16 @@
+{
+    "abstract": "Multi Agent Reinforcement Learning (MARL) has received continually\ngrowing attention in the past decade. Many algorithms that vary in\ntheir approaches to the different subtasks of MARL have been\ndeveloped. However, the theoretical convergence results for these\nalgorithms do not give a clue as to their practical performance nor\nsupply insights to the dynamics of the learning process itself. This\nwork is a comprehensive empirical study conducted on <i>MGS</i>, a\nsimulation system developed for this purpose. It surveys the\nimportant algorithms in the field, demonstrates the strengths and\nweaknesses of the different approaches to MARL through application\nof FriendQ, OAL, WoLF, FoeQ, Rmax, and other algorithms to a variety\nof fully cooperative and fully competitive domains in self and\nheterogeneous play, and supplies an informal analysis of the\nresulting learning processes. The results can aid in the design of\nnew learning algorithms, in matching existing algorithms to specific\ntasks, and may guide further research and formal analysis of the\nlearning processes.",
+    "authors": [
+        "Avraham Bab",
+        "Ronen I. Brafman"
+    ],
+    "id": "bab08a",
+    "issue": 87,
+    "pages": [
+        2635,
+        2675
+    ],
+    "title": "Multi-Agent Reinforcement Learning in Common Interest and Fixed Sum Stochastic Games: An Experimental Study",
+    "volume": "9",
+    "year": "2008"
+}

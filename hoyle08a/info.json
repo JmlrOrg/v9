@@ -1,0 +1,15 @@
+{
+    "abstract": "Bayesian inference from high-dimensional data involves the\nintegration over a large number of model parameters. Accurate\nevaluation of such high-dimensional integrals raises a unique set\nof issues. These issues are illustrated using the exemplar of\nmodel selection for principal component analysis (PCA). A Bayesian\nmodel selection criterion, based on a Laplace approximation to the\nmodel evidence for determining the number of signal principal\ncomponents present in a data set, has previously been show to\nperform well on various test data sets. Using simulated data we\nshow that for <i>d</i>-dimensional data and small sample sizes, <i>N</i>,\nthe accuracy of this model selection method is strongly affected\nby increasing values of <i>d</i>. By taking proper account of the\ncontribution to the evidence from the large number of\nmodel parameters we show that model selection accuracy is\nsubstantially improved. The accuracy of the improved model evidence is studied\nin the asymptotic limit <i>d</i> &#8594; &#8734; at fixed ratio\n&#945; = <i>N</i>/<i>d</i>, with &#945; < 1. In this limit, model selection\nbased upon the improved model evidence agrees with a frequentist\nhypothesis testing approach.",
+    "authors": [
+        "David C. Hoyle"
+    ],
+    "id": "hoyle08a",
+    "issue": 91,
+    "pages": [
+        2733,
+        2759
+    ],
+    "title": "Automatic PCA Dimension Selection for High Dimensional Data and Small Sample Sizes",
+    "volume": "9",
+    "year": "2008"
+}

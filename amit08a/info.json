@@ -1,0 +1,17 @@
+{
+    "abstract": "We describe and analyze an algorithmic framework for online classification\nwhere each online trial consists of <i>multiple</i> prediction tasks that are\ntied together. We tackle the problem of updating the online predictor by\ndefining a projection problem in which each prediction task corresponds to a\nsingle linear constraint. These constraints are tied together through a single\nslack parameter. We then introduce a general method for approximately solving\nthe problem by projecting <i>simultaneously</i> and independently on each\nconstraint which corresponds to a prediction sub-problem, and then averaging\nthe individual solutions. We show that this approach constitutes a feasible,\nalbeit not necessarily optimal, solution of the original projection problem.\nWe derive concrete simultaneous projection schemes and analyze them in the mistake\nbound model. We demonstrate the power of the proposed algorithm in experiments\nwith synthetic data and with multiclass text categorization tasks.",
+    "authors": [
+        "Yonatan Amit",
+        "Shai Shalev-Shwartz",
+        "Yoram Singer"
+    ],
+    "id": "amit08a",
+    "issue": 45,
+    "pages": [
+        1399,
+        1435
+    ],
+    "title": "Online Learning of Complex Prediction Problems Using Simultaneous Projections",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nMost discriminative techniques for detecting instances from object\ncategories in still images consist of looping over a partition of a\npose space with dedicated binary classifiers. The efficiency of this\nstrategy for a complex pose, that is, for fine-grained descriptions, can\nbe assessed by measuring the effect of sample size and pose resolution\non accuracy and computation. Two conclusions emerge: (1) fragmenting\nthe training data, which is inevitable in dealing with high in-class\nvariation, severely reduces accuracy; (2) the computational cost at\nhigh resolution is prohibitive due to visiting a massive pose\npartition.\n</p>\n<p>\nTo overcome data-fragmentation we propose a novel framework centered\non pose-indexed features which assign a response to a pair consisting\nof an image and a pose, and are designed to be stationary: the\nprobability distribution of the response is always the same if an\nobject is actually present. Such features allow for efficient,\none-shot learning of pose-specific classifiers. To avoid expensive\nscene processing, we arrange these classifiers in a hierarchy based on\nnested partitions of the pose; as in previous work on coarse-to-fine\nsearch, this allows for efficient processing.\n</p>\n<p>\nThe hierarchy is then \"folded\" for training: all the classifiers at\neach level are derived from one base predictor learned from all the\ndata. The hierarchy is \"unfolded\" for testing: parsing a scene amounts\nto examining increasingly finer object descriptions only when there is\nsufficient evidence for coarser ones. In this way, the detection\nresults are equivalent to an exhaustive search at high resolution. We\nillustrate these ideas by detecting and localizing cats in highly\ncluttered greyscale scenes.\n</p>",
+    "authors": [
+        "Fran&#231;ois Fleuret",
+        "Donald Geman"
+    ],
+    "id": "fleuret08a",
+    "issue": 84,
+    "pages": [
+        2549,
+        2578
+    ],
+    "title": "Stationary Features and Cat Detection",
+    "volume": "9",
+    "year": "2008"
+}

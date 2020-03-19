@@ -1,0 +1,16 @@
+{
+    "abstract": "We provide a comprehensive overview of many recent algorithms\nfor approximate inference in Gaussian process models for probabilistic\nbinary classification. The relationships between several approaches\nare elucidated theoretically, and the properties of the different\nalgorithms are corroborated by experimental results. We examine both\n1) the quality of the predictive distributions and 2) the suitability\nof the different marginal likelihood approximations for model selection\n(selecting hyperparameters) and compare to a gold standard based on\nMCMC. Interestingly, some methods produce good predictive distributions\nalthough their marginal likelihood approximations are poor. Strong\nconclusions are drawn about the methods: The Expectation Propagation\nalgorithm is almost always the method of choice unless the computational\nbudget is very tight. We also extend existing methods in various ways,\nand provide unifying code implementing all approaches.",
+    "authors": [
+        "Hannes Nickisch",
+        "Carl Edward Rasmussen"
+    ],
+    "id": "nickisch08a",
+    "issue": 66,
+    "pages": [
+        2035,
+        2078
+    ],
+    "title": "Approximations for Binary Gaussian Process Classification",
+    "volume": "9",
+    "year": "2008"
+}

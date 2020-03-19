@@ -1,0 +1,16 @@
+{
+    "abstract": "In a recently published paper in JMLR, Dem&#154;ar (2006) recommends\na set of non-parametric statistical tests and procedures which can\nbe safely used for comparing the performance of classifiers over\nmultiple data sets. After studying the paper, we realize that the\npaper correctly introduces the basic procedures and some of the\nmost advanced ones when comparing a control method. However, it\ndoes not deal with some advanced topics in depth. Regarding these\ntopics, we focus on more powerful proposals of statistical\nprocedures for comparing <i>n</i> &#215; <i>n</i> classifiers. Moreover, we\nillustrate an easy way of obtaining adjusted and comparable\n<i>p</i>-values in multiple comparison procedures.",
+    "authors": [
+        "Salvador Garc&#237;a",
+        "Francisco Herrera"
+    ],
+    "id": "garcia08a",
+    "issue": 88,
+    "pages": [
+        2677,
+        2694
+    ],
+    "title": "An Extension on ``Statistical Comparisons of Classifiers over Multiple Data Sets'' for all Pairwise Comparisons",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "A method is introduced to learn and represent similarity with linear\noperators in kernel induced Hilbert spaces. Transferring error bounds for\nvector valued large-margin classifiers to the setting of Hilbert-Schmidt\noperators leads to dimension free bounds on a risk functional for linear\nrepresentations and motivates a regularized objective functional.\nMinimization of this objective is effected by a simple technique of\nstochastic gradient descent. The resulting representations are tested on\ntransfer problems in image processing, involving plane and spatial geometric\ninvariants, handwritten characters and face recognition.",
+    "authors": [
+        "Andreas Maurer"
+    ],
+    "id": "maurer08a",
+    "issue": 35,
+    "pages": [
+        1049,
+        1082
+    ],
+    "title": "Learning Similarity with Operator-valued Large-margin Classifiers",
+    "volume": "9",
+    "year": "2008"
+}

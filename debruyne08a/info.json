@@ -1,0 +1,17 @@
+{
+    "abstract": "Recent results about the robustness of kernel methods involve the\nanalysis of influence functions. By definition the influence function\nis closely related to leave-one-out criteria.  In statistical\nlearning, the latter is often used to assess the generalization of a\nmethod. In statistics, the influence function is used in a similar way\nto analyze the statistical efficiency of a method. Links between both\nworlds are explored. The influence function is related to the first\nterm of a Taylor expansion. Higher order influence functions are\ncalculated. A recursive relation between these terms is found\ncharacterizing the full Taylor expansion. It is shown how to evaluate\ninfluence functions at a specific sample distribution to obtain an\napproximation of the leave-one-out error. A specific implementation is\nproposed using a <i>L</i><sub>1</sub> loss in the selection of the hyperparameters\nand a Huber loss in the estimation procedure.  The parameter in the\nHuber loss controlling the degree of robustness is optimized as\nwell. The resulting procedure gives good results, even when outliers\nare present in the data.",
+    "authors": [
+        "Michiel Debruyne",
+        "Mia Hubert",
+        "Johan A.K. Suykens"
+    ],
+    "id": "debruyne08a",
+    "issue": 77,
+    "pages": [
+        2377,
+        2400
+    ],
+    "title": "Model Selection in Kernel Based Regression using the Influence Function",
+    "volume": "9",
+    "year": "2008"
+}

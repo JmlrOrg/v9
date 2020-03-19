@@ -1,0 +1,17 @@
+{
+    "abstract": "Conditional random fields (CRFs) provide a flexible and powerful model\nfor sequence labeling problems.  However, existing learning algorithms\nare slow, particularly in problems with large numbers of potential\ninput features and feature combinations.  This paper describes a new\nalgorithm for training CRFs via gradient tree boosting. In tree\nboosting, the CRF potential functions are represented as weighted sums\nof regression trees, which provide compact representations of feature\ninteractions.  So the algorithm does not explicitly consider the\npotentially large parameter space.  As a result, gradient tree\nboosting scales linearly in the order of the Markov model and in the\norder of the feature interactions, rather than exponentially as in\nprevious algorithms based on iterative scaling and gradient descent.\nGradient tree boosting also makes it possible to use instance\nweighting (as in C4.5) and surrogate splitting (as in CART) to handle\nmissing values.  Experimental studies of the effectiveness of these\ntwo methods (as well as standard imputation and indicator feature\nmethods) show that instance weighting is the best method in most cases\nwhen feature values are missing at random.",
+    "authors": [
+        "Thomas G. Dietterich",
+        "Guohua Hao",
+        "Adam Ashenfelter"
+    ],
+    "id": "dietterich08a",
+    "issue": 68,
+    "pages": [
+        2113,
+        2139
+    ],
+    "title": "Gradient Tree Boosting for Training Conditional Random Fields",
+    "volume": "9",
+    "year": "2008"
+}

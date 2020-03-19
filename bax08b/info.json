@@ -1,0 +1,15 @@
+{
+    "abstract": "This paper develops bounds on out-of-sample error rates for support\nvector machines (SVMs). The bounds are based on the numbers of support\nvectors in the SVMs rather than on VC dimension. The bounds developed\nhere improve on support vector counting bounds derived using\nLittlestone and Warmuth's compression-based bounding technique.",
+    "authors": [
+        "Eric Bax"
+    ],
+    "id": "bax08b",
+    "issue": 55,
+    "pages": [
+        1741,
+        1755
+    ],
+    "title": "Nearly Uniform Validation Improves Compression-Based Error Bounds",
+    "volume": "9",
+    "year": "2008"
+}

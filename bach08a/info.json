@@ -1,0 +1,15 @@
+{
+    "abstract": "Regularization by the sum of singular values, also referred to as the\n<i>trace norm</i>, is a popular technique for estimating low rank\nrectangular matrices. In this paper, we extend some of the consistency\nresults of the Lasso to provide necessary and sufficient conditions\nfor rank consistency of trace norm minimization with the square loss.\nWe also provide an adaptive version that is rank consistent even when\nthe necessary condition for the non adaptive version is not fulfilled.",
+    "authors": [
+        "Francis R. Bach"
+    ],
+    "id": "bach08a",
+    "issue": 34,
+    "pages": [
+        1019,
+        1048
+    ],
+    "title": "Consistency of Trace Norm Minimization",
+    "volume": "9",
+    "year": "2008"
+}

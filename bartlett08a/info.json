@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider the problem of binary classification where the\nclassifier can, for a particular cost, choose not to classify an\nobservation. Just as in the conventional classification problem,\nminimization of the sample average of the cost is a difficult\noptimization problem. As an alternative, we propose the optimization\nof a certain convex loss function &#966;, analogous to the hinge\nloss used in support vector machines (SVMs). Its convexity ensures\nthat the sample average of this surrogate loss can be efficiently\nminimized. We study its statistical properties. We show that\nminimizing the expected surrogate loss&#151;the &#966;-risk&#151;also\nminimizes the risk.  We also study the rate at which the &#966;-risk\napproaches its minimum value. We show that fast rates are possible\nwhen the conditional probability <i>P</i>(<i>Y</i>=1|<i>X</i>) is unlikely to be\nclose to certain critical values.",
+    "authors": [
+        "Peter L. Bartlett",
+        "Marten H. Wegkamp"
+    ],
+    "id": "bartlett08a",
+    "issue": 58,
+    "pages": [
+        1823,
+        1840
+    ],
+    "title": "Classification with a Reject Option using a Hinge Loss",
+    "volume": "9",
+    "year": "2008"
+}

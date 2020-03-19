@@ -1,0 +1,18 @@
+{
+    "abstract": "In many applications, one has to actively select among a set of\nexpensive observations before making an informed decision. For\nexample, in environmental monitoring, we want to select locations to\nmeasure in order to most effectively predict spatial phenomena.\nOften, we want to select observations which are robust against a\nnumber of possible objective functions. Examples include minimizing\nthe maximum posterior variance in Gaussian Process regression,\nrobust experimental design, and sensor placement for outbreak\ndetection. In this paper, we present the <i>Submodular\nSaturation</i> algorithm, a simple and efficient algorithm with strong\ntheoretical approximation guarantees for cases where the possible\nobjective functions exhibit <i>submodularity</i>, an intuitive\ndiminishing returns property. Moreover, we prove that better\napproximation algorithms do not exist unless NP-complete\nproblems admit efficient algorithms. We show how our algorithm can\nbe extended to handle complex cost functions (incorporating non-unit\nobservation cost or communication and path costs). We also show how\nthe algorithm can be used to near-optimally trade off expected-case\n(e.g., the Mean Square Prediction Error in Gaussian Process\nregression) and worst-case (e.g., maximum predictive variance)\nperformance. We show that many important machine learning problems\nfit our robust submodular observation selection formalism, and\nprovide extensive empirical evaluation on several real-world\nproblems. For Gaussian Process regression, our algorithm compares\nfavorably with state-of-the-art heuristics described in the\ngeostatistics literature, while being simpler, faster and providing\ntheoretical guarantees. For robust experimental design, our\nalgorithm performs favorably compared to SDP-based algorithms.",
+    "authors": [
+        "Andreas Krause",
+        "H. Brendan McMahan",
+        "Carlos Guestrin",
+        "Anupam Gupta"
+    ],
+    "id": "krause08b",
+    "issue": 92,
+    "pages": [
+        2761,
+        2801
+    ],
+    "title": "Robust Submodular Observation Selection",
+    "volume": "9",
+    "year": "2008"
+}

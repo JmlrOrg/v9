@@ -1,0 +1,18 @@
+{
+    "abstract": "In this paper we are concerned with reproducing kernel Hilbert\nspaces <i>H<sub>K</sub></i> of functions from an input space into a Hilbert\nspace <i>Y</i>, an environment appropriate for multi-task\nlearning. The reproducing kernel <i>K</i> associated to <i>H<sub>K</sub></i> has\nits values as operators on <i>Y</i>. Our primary goal here is to\nderive conditions which ensure that the kernel <i>K</i> is universal.\nThis means that on every compact subset of the input space, every\ncontinuous function with values in <i>Y</i> can be uniformly\napproximated by sections of the kernel. We provide various\ncharacterizations of universal kernels and highlight them with\nseveral concrete examples of some practical importance. Our analysis\nuses basic principles of functional analysis and especially the\nuseful notion of vector measures which we describe in sufficient\ndetail to clarify our results.",
+    "authors": [
+        "Andrea Caponnetto",
+        "Charles A. Micchelli",
+        "Massimiliano Pontil",
+        "Yiming Ying"
+    ],
+    "id": "caponnetto08a",
+    "issue": 51,
+    "pages": [
+        1615,
+        1646
+    ],
+    "title": "Universal Multi-Task Kernels",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "When monitoring spatial phenomena, which can often be modeled as\nGaussian processes (GPs), choosing sensor locations is a fundamental\ntask. There are several common strategies to address this task, for\nexample, geometry or disk models, placing sensors at the points of\nhighest entropy (variance) in the GP model, and A-, D-, or E-optimal\ndesign. In this paper, we tackle the combinatorial optimization\nproblem of maximizing the <i>mutual information</i> between the\nchosen locations and the locations which are not selected. We prove\nthat the problem of finding the configuration that maximizes mutual\ninformation is NP-complete. To address this issue, we describe a\npolynomial-time approximation that is within (1-1/<i>e</i>) of the\noptimum by exploiting the <i>submodularity</i> of mutual\ninformation. We also show how submodularity can be used to obtain\nonline bounds, and design branch and bound search procedures. We\nthen extend our algorithm to exploit lazy evaluations and local\nstructure in the GP, yielding significant speedups. We also extend\nour approach to find placements which are robust against node\nfailures and uncertainties in the model. These extensions are again\nassociated with rigorous theoretical approximation guarantees,\nexploiting the submodularity of the objective function. We\ndemonstrate the advantages of our approach towards optimizing mutual\ninformation in a very extensive empirical study on two real-world\ndata sets.",
+    "authors": [
+        "Andreas Krause",
+        "Ajit Singh",
+        "Carlos Guestrin"
+    ],
+    "id": "krause08a",
+    "issue": 7,
+    "pages": [
+        235,
+        284
+    ],
+    "title": "Near-Optimal Sensor Placements in Gaussian Processes: Theory, Efficient Algorithms and Empirical Studies",
+    "volume": "9",
+    "year": "2008"
+}

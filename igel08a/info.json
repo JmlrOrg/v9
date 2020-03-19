@@ -1,0 +1,17 @@
+{
+    "abstract": "SHARK is an object-oriented library for the design of adaptive\nsystems. It comprises methods for single- and multi-objective\noptimization (e.g., evolutionary and gradient-based algorithms) as\nwell as kernel-based methods, neural networks, and other machine\nlearning techniques.",
+    "authors": [
+        "Christian Igel",
+        "Verena Heidrich-Meisner",
+        "Tobias Glasmachers"
+    ],
+    "id": "igel08a",
+    "issue": 32,
+    "pages": [
+        993,
+        996
+    ],
+    "title": "Shark",
+    "volume": "9",
+    "year": "2008"
+}

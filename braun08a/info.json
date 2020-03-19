@@ -1,0 +1,17 @@
+{
+    "abstract": "We show that the relevant information of a supervised learning problem\nis contained up to negligible error in a finite number of leading\nkernel PCA components if the kernel matches the underlying learning\nproblem in the sense that it can asymptotically represent the function\nto be learned and is sufficiently smooth.  Thus, kernels do not only\ntransform data sets such that good generalization can be achieved\nusing only linear discriminant functions, but this transformation is\nalso performed in a manner which makes economical use of feature space\ndimensions. In the best case, kernels provide efficient implicit\nrepresentations of the data for supervised learning problems.\nPractically, we propose an algorithm which enables us to recover the\nnumber of leading kernel PCA components relevant for good\nclassification. Our algorithm can therefore be applied (1) to analyze\nthe interplay of data set and kernel in a geometric fashion, (2) to\naid in model selection, and (3) to denoise in feature space in order\nto yield better classification results.",
+    "authors": [
+        "Mikio L. Braun",
+        "Joachim M. Buhmann",
+        "Klaus-Robert M&#252;ller"
+    ],
+    "id": "braun08a",
+    "issue": 61,
+    "pages": [
+        1875,
+        1908
+    ],
+    "title": "On Relevant Dimensions in Kernel Feature Spaces",
+    "volume": "9",
+    "year": "2008"
+}

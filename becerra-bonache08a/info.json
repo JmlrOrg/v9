@@ -1,0 +1,18 @@
+{
+    "abstract": "When facing the question of learning languages in realistic settings,\none has to tackle several problems that do not admit simple\nsolutions. On the one hand, languages are usually defined by complex\ngrammatical mechanisms for which the learning results are\npredominantly negative, as the few algorithms are not really able to\ncope with noise. On the other hand, the learning settings themselves\nrely either on too simple information (text) or on unattainable one\n(query systems that do not exist in practice, nor can be\nsimulated). We consider simple but sound classes of languages defined\nvia the widely used edit distance: the balls of strings. We propose to\nlearn them with the help of a new sort of queries, called the\ncorrection queries: when a string is submitted to the Oracle, either\nshe accepts it if it belongs to the target language, or she proposes a\ncorrection, that is, a string of the language close to the query with\nrespect to the edit distance. We show that even if the good balls are\nnot learnable in Angluin's M<small>AT</small> model, they can be learned\nfrom a polynomial number of correction queries. Moreover, experimental\nevidence simulating a human Expert shows that this algorithm is\nresistant to approximate answers.",
+    "authors": [
+        "Leonor Becerra-Bonache",
+        "Colin de la Higuera",
+        "Jean-Christophe Janodet",
+        "Fr&#233;d&#233;ric Tantini"
+    ],
+    "id": "becerra-bonache08a",
+    "issue": 59,
+    "pages": [
+        1841,
+        1870
+    ],
+    "title": "Learning Balls of Strings from Edit Corrections",
+    "volume": "9",
+    "year": "2008"
+}

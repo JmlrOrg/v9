@@ -1,0 +1,16 @@
+{
+    "abstract": "Pointwise consistent, feasible procedures for estimating\ncontemporaneous linear causal structure from time series data have\nbeen developed using multiple conditional independence tests, but no\nsuch procedures are available for non-linear systems.  We describe a\nfeasible procedure for learning a class of non-linear time series\nstructures, which we call additive non-linear time series. We show\nthat for data generated from stationary models of this type, two\nclasses of conditional independence relations among time series\nvariables and their lags can be tested efficiently and consistently\nusing tests based on additive model regression. Combining results of\nstatistical tests for these two classes of conditional independence\nrelations and the temporal structure of time series data, a new\nconsistent model specification procedure is able to extract relatively\ndetailed causal information. We investigate the finite sample behavior\nof the procedure through simulation, and illustrate the application of\nthis method through analysis of the possible causal connections among\nfour ocean indices. Several variants of the procedure are also\ndiscussed.",
+    "authors": [
+        "Tianjiao Chu",
+        "Clark Glymour"
+    ],
+    "id": "chu08a",
+    "issue": 31,
+    "pages": [
+        967,
+        991
+    ],
+    "title": "Search for Additive Nonlinear Time Series Causal Models",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "Support vector machine (SVM) is one of the most popular and\npromising classification algorithms. After a classification rule is\nconstructed via the SVM, it is essential to evaluate its prediction\naccuracy. In this paper, we develop procedures for obtaining both\npoint and interval estimators for the prediction error. Under mild\nregularity conditions, we derive the consistency and asymptotic\nnormality of the prediction error estimators for SVM with\nfinite-dimensional kernels. A perturbation-resampling procedure is\nproposed to obtain interval estimates for the prediction error in\npractice. With numerical studies on simulated data and a benchmark\nrepository, we recommend the use of interval estimates centered at\nthe cross-validated point estimates for the prediction error.\nFurther applications of the proposed procedure in model evaluation\nand feature selection are illustrated with two examples.",
+    "authors": [
+        "Bo Jiang",
+        "Xuegong Zhang",
+        "Tianxi Cai"
+    ],
+    "id": "jiang08a",
+    "issue": 16,
+    "pages": [
+        521,
+        540
+    ],
+    "title": "Estimating the Confidence Interval for Prediction Errors of Support Vector Machine Classifiers",
+    "volume": "9",
+    "year": "2008"
+}

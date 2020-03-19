@@ -1,0 +1,16 @@
+{
+    "abstract": "JNCC2 implements the <i>naive credal classifier 2</i> (NCC2). This is\nan extension of naive Bayes to imprecise probabilities that aims at\ndelivering robust classifications also when dealing with small or\nincomplete data sets. Robustness is achieved by delivering set-valued\nclassifications (that is, returning multiple classes) on the\ninstances for which (i) the learning set is not informative enough to\nsmooth the effect of choice of the prior density or (ii) the\nuncertainty arising from missing data prevents the reliable\nindication of a single class. JNCC2 is released under the GNU GPL\nlicense.",
+    "authors": [
+        "Giorgio Corani",
+        "Marco Zaffalon"
+    ],
+    "id": "corani08b",
+    "issue": 89,
+    "pages": [
+        2695,
+        2698
+    ],
+    "title": "JNCC2: The Java Implementation Of Naive Credal Classifier 2",
+    "volume": "9",
+    "year": "2008"
+}

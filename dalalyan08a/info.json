@@ -1,0 +1,17 @@
+{
+    "abstract": "<p>\nThe statistical problem of estimating the effective\ndimension-reduction (EDR) subspace in the multi-index regression model\nwith deterministic design and additive noise is considered. A new\nprocedure for recovering the directions of the EDR subspace is\nproposed.  Many methods for estimating the EDR subspace perform\nprincipal component analysis on a family of vectors, say\n&#946;<sub>1</sub>,...,&#946;<sub><i>L</i></sub>, nearly lying in the EDR\nsubspace. This is in particular the case for the structure-adaptive\napproach proposed by Hristache et al. (2001a). In the present work, we propose to\nestimate the projector onto the EDR subspace by the solution to the\noptimization problem \n</p>\n<center>\nminimize max<sub><i>l</i>=1,...,<i>L</i></sub>\n&#946;<sub><i>l</i></sub><sup>T</sup> (<i>I</i>-A)&#946;<sub><i>l</i></sub>&#160;&#160;&#160; subject to A &#8712; <i>A<sub>m</sub></i>\n</center>\n<p>\nwhere <i>A<sub>m</sub></i> is the set of all\nsymmetric matrices with eigenvalues in [0,1] and trace less than or\nequal to <i>m</i>, with <i>m</i> being the true structural dimension. Under\nmild assumptions, &#8730;<i>n</i>-consistency of the proposed procedure is\nproved (up to a logarithmic factor) in the case when the structural\ndimension is not larger than 4.  Moreover, the stochastic error of\nthe estimator of the projector onto the EDR subspace is shown to\ndepend on <i>L</i> logarithmically. This enables us to use a large number\nof vectors &#946;<sub><i>l</i></sub> for estimating the EDR subspace. The\nempirical behavior of the algorithm is studied through numerical\nsimulations.\n</p>",
+    "authors": [
+        "Arnak S. Dalalyan",
+        "Anatoly Juditsky",
+        "Vladimir Spokoiny"
+    ],
+    "id": "dalalyan08a",
+    "issue": 52,
+    "pages": [
+        1647,
+        1678
+    ],
+    "title": "A New Algorithm for Estimating the Effective Dimension-Reduction Subspace",
+    "volume": "9",
+    "year": "2008"
+}

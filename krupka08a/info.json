@@ -1,0 +1,16 @@
+{
+    "abstract": "We argue that when objects are characterized by many attributes, clustering\nthem on the basis of a <i>random</i> subset of these attributes can\ncapture information on the unobserved attributes as well. Moreover,\nwe show that under mild technical conditions, clustering the objects\non the basis of such a random subset performs almost as well as clustering\nwith the full attribute set. We prove finite sample generalization\ntheorems for this novel learning scheme that extends analogous results\nfrom the supervised learning setting. We use our framework to analyze\ngeneralization to unobserved features of two well-known clustering\nalgorithms: <i>k</i>-means and the maximum likelihood multinomial mixture\nmodel. The scheme is demonstrated for collaborative filtering of users\nwith movie ratings as attributes and document clustering with words\nas attributes.",
+    "authors": [
+        "Eyal Krupka",
+        "Naftali Tishby"
+    ],
+    "id": "krupka08a",
+    "issue": 10,
+    "pages": [
+        339,
+        370
+    ],
+    "title": "Generalization from Observed to Unobserved Features by Clustering",
+    "volume": "9",
+    "year": "2008"
+}

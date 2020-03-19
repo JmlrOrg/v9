@@ -1,0 +1,16 @@
+{
+    "abstract": "We investigate robustness properties for a broad\nclass of support vector machines with non-smooth loss functions.\nThese kernel methods are inspired by convex risk minimization in\ninfinite dimensional Hilbert spaces. Leading examples are the\nsupport vector machine based on the <u>&#949;</u>-insensitive loss function,\nand kernel based quantile regression based on the pinball loss\nfunction. Firstly, we propose with the Bouligand influence function\n(BIF) a modification of F.R. Hampel's influence function. The BIF\nhas the advantage of being positive homogeneous which is in general\nnot true for Hampel's influence function. Secondly, we show that\nmany support vector machines based on a Lipschitz continuous loss\nfunction and a bounded kernel have a bounded BIF and are thus robust\nin the sense of robust statistics based on influence functions.",
+    "authors": [
+        "Andreas Christmann",
+        "Arnout Van Messem"
+    ],
+    "id": "christmann08a",
+    "issue": 29,
+    "pages": [
+        915,
+        936
+    ],
+    "title": "Bouligand Derivatives and Robustness of Support Vector Machines for Regression",
+    "volume": "9",
+    "year": "2008"
+}

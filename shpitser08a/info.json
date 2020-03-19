@@ -1,0 +1,16 @@
+{
+    "abstract": "We consider a hierarchy of queries about causal relationships in\ngraphical models, where each level in the hierarchy\nrequires more detailed information than the one below.\nThe hierarchy consists of three\nlevels: associative relationships, derived from a joint distribution\nover the observable variables;\ncause-effect relationships, derived from distributions resulting\nfrom external interventions; and\ncounterfactuals, derived from distributions that span multiple\n\"parallel worlds\" and resulting from simultaneous, possibly\nconflicting observations and interventions.\nWe completely characterize cases where a given causal query can be computed\nfrom information lower in the hierarchy, and provide algorithms that\naccomplish this computation.  Specifically, we show when effects of\ninterventions can be computed from observational studies, and when\nprobabilities of counterfactuals can be computed from experimental\nstudies.  We also provide a graphical characterization of those queries which\ncannot be computed (by any method) from queries at a lower layer of the\nhierarchy.",
+    "authors": [
+        "Ilya Shpitser",
+        "Judea Pearl"
+    ],
+    "id": "shpitser08a",
+    "issue": 63,
+    "pages": [
+        1941,
+        1979
+    ],
+    "title": "Complete Identification Methods for the Causal Hierarchy",
+    "volume": "9",
+    "year": "2008"
+}

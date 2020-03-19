@@ -1,0 +1,15 @@
+{
+    "abstract": "In supervised learning, a training set consisting of labeled instances\nis used by a learning algorithm for generating a model (classifier)\nthat is subsequently employed for deciding the class label of new\ninstances (for generalization).  Characteristics of the training set,\nsuch as presence of noisy instances and size, influence the learning\nalgorithm and affect generalization performance. This paper introduces\na new network-based representation of a training set, called hit miss\nnetwork (HMN), which provides a compact description of the nearest\nneighbor relation over pairs of instances from each pair of classes.\nWe show that structural properties of HMN's correspond to properties\nof training points related to the one nearest neighbor (1-NN) decision\nrule, such as being border or central point. This motivates us to use\nHMN's for improving the performance of a 1-NN, classifier by removing\ninstances from the training set (instance selection).  We introduce\nthree new HMN-based algorithms for instance selection.  HMN-C, which\nremoves instances without affecting accuracy of 1-NN on the original\ntraining set, HMN-E, based on a more aggressive storage reduction, and\nHMN-EI, which applies iteratively HMN-E. Their performance is assessed\non 22 data sets with different characteristics, such as input\ndimension, cardinality, class balance, number of classes, noise\ncontent, and presence of redundant variables.  Results of experiments\non these data sets show that accuracy of 1-NN classifier increases\nsignificantly when HMN-EI is applied. Comparison with\nstate-of-the-art editing algorithms for instance selection on these\ndata sets indicates best generalization performance of HMN-EI and no\nsignificant difference in storage requirements. In general, these\nresults indicate that HMN's provide a powerful graph-based\nrepresentation of a training set, which can be successfully applied\nfor performing noise and redundance reduction in instance-based\nlearning.",
+    "authors": [
+        "Elena Marchiori"
+    ],
+    "id": "marchiori08a",
+    "issue": 33,
+    "pages": [
+        997,
+        1017
+    ],
+    "title": "Hit Miss Networks with Applications to Instance Selection",
+    "volume": "9",
+    "year": "2008"
+}

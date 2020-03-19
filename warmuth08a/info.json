@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe design an online algorithm for Principal Component\nAnalysis. In each trial\nthe current instance is centered and projected into\na probabilistically chosen low dimensional subspace.\nThe regret of our online algorithm,\nthat is, the total expected quadratic compression loss of the\nonline algorithm minus the total quadratic compression loss\nof the batch algorithm, is bounded \nby a term whose dependence on the dimension of the \ninstances is only logarithmic.\n</p>\n<p>\nWe first develop our methodology in the expert setting of online\nlearning by giving an algorithm for learning as well\nas the best subset of experts of a certain size. \nThis algorithm is then lifted to the matrix setting where\nthe subsets of experts correspond to subspaces.\nThe algorithm represents the uncertainty over the best subspace\nas a density matrix whose eigenvalues are bounded.\nThe running time is <i>O</i>(<i>n</i><sup>2</sup>) per trial, where\n<i>n</i> is the dimension of the instances.\n</p>",
+    "authors": [
+        "Manfred K. Warmuth",
+        "Dima Kuzmin"
+    ],
+    "id": "warmuth08a",
+    "issue": 74,
+    "pages": [
+        2287,
+        2320
+    ],
+    "title": "Randomized Online PCA Algorithms with Regret Bounds that are Logarithmic in the Dimension",
+    "volume": "9",
+    "year": "2008"
+}

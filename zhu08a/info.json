@@ -1,0 +1,18 @@
+{
+    "abstract": "Existing template-independent web data extraction approaches adopt\nhighly ineffective decoupled strategies---attempting to do data\nrecord detection and attribute labeling in two separate phases. In\nthis paper, we propose an integrated web data extraction paradigm\nwith hierarchical models. The proposed model is called Dynamic\nHierarchical Markov Random Fields (DHMRFs). DHMRFs take structural\nuncertainty into consideration and define a joint distribution of\nboth model structure and class labels. The joint distribution is an\nexponential family distribution. As a conditional model, DHMRFs\nrelax the independence assumption as made in directed models. Since\nexact inference is intractable, a variational method is developed to\nlearn the model's parameters and to find the MAP model structure and\nlabel assignments. We apply DHMRFs to a real-world web data\nextraction task. Experimental results show that: (1) integrated web\ndata extraction models can achieve significant improvements on both\nrecord detection and attribute labeling compared to decoupled\nmodels; (2) in diverse web data extraction DHMRFs can potentially\naddress the blocky artifact issue which is suffered by\nfixed-structured hierarchical models.",
+    "authors": [
+        "Jun Zhu",
+        "Zaiqing Nie",
+        "Bo Zhang",
+        "Ji-Rong Wen"
+    ],
+    "id": "zhu08a",
+    "issue": 50,
+    "pages": [
+        1583,
+        1614
+    ],
+    "title": "Dynamic Hierarchical Markov Random Fields for Integrated Web Data Extraction",
+    "volume": "9",
+    "year": "2008"
+}

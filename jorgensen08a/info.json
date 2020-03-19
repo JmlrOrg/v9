@@ -1,0 +1,17 @@
+{
+    "abstract": "Statistical spam filters are known to be vulnerable to adversarial\nattacks. One of the more common adversarial attacks, known as\nthe <i>good word attack</i>, thwarts spam filters by appending to\nspam messages sets of \"good\" words, which are words that are common\nin legitimate email but rare in spam. We present a counterattack\nstrategy that attempts to differentiate spam from\nlegitimate email in the input space by transforming each email\ninto a bag of multiple segments, and subsequently applying\nmultiple instance logistic regression on the bags. We\ntreat each segment in the bag as an instance. An email\nis classified as spam if at least one instance in the corresponding\nbag is spam, and as legitimate if all the instances\nin it are legitimate. We show that a classifier using our\nmultiple instance counterattack strategy is more robust\nto good word attacks than its single instance counterpart\nand other single instance learners commonly used in the spam filtering domain.",
+    "authors": [
+        "Zach Jorgensen",
+        "Yan Zhou",
+        "Meador Inge"
+    ],
+    "id": "jorgensen08a",
+    "issue": 37,
+    "pages": [
+        1115,
+        1146
+    ],
+    "title": "A Multiple Instance Learning Strategy for Combating Good Word Attacks on Spam Filters",
+    "volume": "9",
+    "year": "2008"
+}

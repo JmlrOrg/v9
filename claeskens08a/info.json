@@ -1,0 +1,17 @@
+{
+    "abstract": "Support vector machines for classification have the advantage that\nthe curse of dimensionality is circumvented. It has been shown that\na reduction of the dimension of the input space leads to even better\nresults. For this purpose, we propose two information criteria which\ncan be computed directly from the definition of the support vector\nmachine. We assess the predictive performance of the models selected\nby our new criteria and compare them to existing variable selection\ntechniques in a simulation study. The simulation results show that\nthe new criteria are competitive in terms of generalization error\nrate while being much easier to compute. We arrive at the same\nfindings for comparison on some real-world benchmark data sets.",
+    "authors": [
+        "Gerda Claeskens",
+        "Christophe Croux",
+        "Johan Van Kerckhoven"
+    ],
+    "id": "claeskens08a",
+    "issue": 17,
+    "pages": [
+        541,
+        558
+    ],
+    "title": "An Information Criterion for Variable Selection in Support Vector Machines",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "In graphical modelling, a bi-directed graph encodes marginal\nindependences among random variables that are identified with the\nvertices of the graph.  We show how to transform a bi-directed graph\ninto a maximal ancestral graph that (i) represents the same\nindependence structure as the original bi-directed graph, and (ii)\nminimizes the number of arrowheads among all ancestral graphs\nsatisfying (i). Here the number of arrowheads of an ancestral graph is\nthe number of directed edges plus twice the number of bi-directed\nedges. In Gaussian models, this construction can be used for more\nefficient iterative maximization of the likelihood function and to\ndetermine when maximum likelihood estimates are equal to empirical\ncounterparts.",
+    "authors": [
+        "Mathias Drton",
+        "Thomas S. Richardson"
+    ],
+    "id": "drton08a",
+    "issue": 28,
+    "pages": [
+        893,
+        914
+    ],
+    "title": "Graphical Methods for Efficient Likelihood Inference in Gaussian Covariance Models",
+    "volume": "9",
+    "year": "2008"
+}

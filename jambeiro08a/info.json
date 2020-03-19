@@ -1,0 +1,16 @@
+{
+    "abstract": "We replaced the conditional probability tables of Bayesian network\nnodes whose parents have high cardinality with a multilevel empirical\nhierarchical Bayesian model called hierarchical pattern Bayes (HPB).\nThe resulting Bayesian networks achieved significant performance\nimprovements over Bayesian networks with the same structure and\ntraditional conditional probability tables, over Bayesian networks\nwith simpler structures like na&#239;ve Bayes and tree augmented na&#239;ve\nBayes, over Bayesian networks where traditional conditional\nprobability tables were substituted by noisy-OR gates, default tables,\ndecision trees and decision graphs and over Bayesian networks\nconstructed after a cardinality reduction preprocessing phase using\nthe agglomerative information bottleneck method. Our main tests took\nplace in important fraud detection domains, which are characterized by\nthe presence of high cardinality attributes and by the existence of\nrelevant interactions among them. Other tests, over UCI data sets,\nshow that HPB may have a quite wide applicability.",
+    "authors": [
+        "Jorge Jambeiro Filho",
+        "Jacques Wainer"
+    ],
+    "id": "jambeiro08a",
+    "issue": 69,
+    "pages": [
+        2141,
+        2170
+    ],
+    "title": "HPB: A Model for Handling BN Nodes with High Cardinality Parents",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "Ensemble learning algorithms such as boosting can achieve better\nperformance by averaging over the predictions of some base hypotheses.\nNevertheless, most existing algorithms are limited to combining only a\nfinite number of hypotheses, and the generated ensemble is usually\nsparse.  Thus, it is not clear whether we should construct an ensemble\nclassifier with a larger or even an infinite number of hypotheses.  In\naddition, constructing an infinite ensemble itself is a challenging\ntask.  In this paper, we formulate an infinite ensemble learning\nframework based on the support vector machine (SVM).  The framework\ncan output an infinite and nonsparse ensemble through embedding\ninfinitely many hypotheses into an SVM kernel.  We use the framework\nto derive two novel kernels, the stump kernel and the perceptron\nkernel.  The stump kernel embodies infinitely many decision stumps,\nand the perceptron kernel embodies infinitely many perceptrons.  We\nalso show that the Laplacian radial basis function kernel embodies\ninfinitely many decision trees, and can thus be explained through\ninfinite ensemble learning.  Experimental results show that SVM with\nthese kernels is superior to boosting with the same base hypothesis\nset.  In addition, SVM with the stump kernel or the perceptron kernel\nperforms similarly to SVM with the Gaussian radial basis function\nkernel, but enjoys the benefit of faster parameter selection.  These\nproperties make the novel kernels favorable choices in practice.",
+    "authors": [
+        "Hsuan-Tien Lin",
+        "Ling Li"
+    ],
+    "id": "lin08a",
+    "issue": 8,
+    "pages": [
+        285,
+        312
+    ],
+    "title": "Support Vector Machinery for Infinite Ensemble Learning",
+    "volume": "9",
+    "year": "2008"
+}

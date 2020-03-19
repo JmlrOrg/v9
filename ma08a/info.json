@@ -1,0 +1,17 @@
+{
+    "abstract": "Chain graphs present a broad class of graphical models for description\nof conditional independence structures, including both Markov networks\nand Bayesian networks as special cases.  In this paper, we propose a\ncomputationally feasible method for the structural learning of chain\ngraphs based on the idea of decomposing the learning problem into a\nset of smaller scale problems on its decomposed subgraphs. The\ndecomposition requires conditional independencies but does not require\nthe separators to be complete subgraphs. Algorithms for both skeleton\nrecovery and complex arrow orientation are presented. Simulations\nunder a variety of settings demonstrate the competitive performance of\nour method, especially when the underlying graph is sparse.",
+    "authors": [
+        "Zongming Ma",
+        "Xianchao Xie",
+        "Zhi Geng"
+    ],
+    "id": "ma08a",
+    "issue": 94,
+    "pages": [
+        2847,
+        2880
+    ],
+    "title": "Structural Learning of Chain Graphs via Decomposition",
+    "volume": "9",
+    "year": "2008"
+}

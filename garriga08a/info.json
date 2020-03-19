@@ -1,0 +1,17 @@
+{
+    "abstract": "Closed sets have been proven successful in the context of compacted\ndata representation for association rule learning. However, their use\nis mainly descriptive, dealing only with unlabeled data. This paper\nshows that when considering labeled data, closed sets can be adapted\nfor classification and discrimination purposes by conveniently\ncontrasting covering properties on positive and negative examples. We\nformally prove that these sets characterize the space of relevant\ncombinations of features for discriminating the target class. In\npractice, identifying relevant/irrelevant combinations of features\nthrough closed sets is useful in many applications:\nto compact emerging\npatterns of typical descriptive mining applications, to reduce the number\nof essential rules in classification, and to efficiently learn \nsubgroup descriptions, as demonstrated in real-life subgroup discovery\nexperiments on a high dimensional microarray data set.",
+    "authors": [
+        "Gemma C. Garriga",
+        "Petra Kralj",
+        "Nada Lavra&#269;"
+    ],
+    "id": "garriga08a",
+    "issue": 18,
+    "pages": [
+        559,
+        580
+    ],
+    "title": "Closed Sets for Labeled Data",
+    "volume": "9",
+    "year": "2008"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We consider the problem of learning accurate models from multiple\nsources of \"nearby\" data. Given distinct samples from multiple data\nsources and estimates of the dissimilarities between these sources, we\nprovide a general theory of which samples should be used to learn\nmodels for each source. This theory is applicable in a broad\ndecision-theoretic learning framework, and yields general results for\nclassification and regression.  A key component of our approach is the\ndevelopment of approximate triangle inequalities for expected loss,\nwhich may be of independent interest.  We discuss the related problem\nof learning parameters of a distribution from multiple data sources.\nFinally, we illustrate our theory through a series of synthetic\nsimulations.",
+    "authors": [
+        "Koby Crammer",
+        "Michael Kearns",
+        "Jennifer Wortman"
+    ],
+    "id": "crammer08a",
+    "issue": 56,
+    "pages": [
+        1757,
+        1774
+    ],
+    "title": "Learning from Multiple Sources",
+    "volume": "9",
+    "year": "2008"
+}

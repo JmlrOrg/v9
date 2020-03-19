@@ -1,0 +1,17 @@
+{
+    "abstract": "Classical approaches used to learn Bayesian network structure from\ndata have disadvantages in terms of complexity and lower accuracy of\ntheir results. However, a recent empirical study has shown that a\nhybrid algorithm improves sensitively accuracy and speed: it learns a\nskeleton with an independency test (IT) approach and constrains on the\ndirected acyclic graphs (DAG) considered during the search-and-score\nphase. Subsequently, we theorize the structural constraint by\nintroducing the concept of super-structure <i>S</i>, which is an\nundirected graph that restricts the search to networks whose skeleton\nis a subgraph of <i>S</i>. We develop a super-structure constrained\noptimal search (COS): its time complexity is upper bounded by\n<i>O</i>(&#947;<i><sub>m</sub><sup>n</sup></i>), where\n&#947;<sub><i>m</i></sub>&lt;2 depends on the maximal degree <i>m</i> of\n<i>S</i>. Empirically, complexity depends on the average degree\n<i>m-tilde</i> and sparse structures allow larger graphs to be\ncalculated. Our algorithm is faster than an optimal search by several\norders and even finds more accurate results when given a sound\nsuper-structure. Practically, <i>S</i> can be approximated by IT\napproaches; significance level of the tests controls its sparseness,\nenabling to control the trade-off between speed and accuracy. For\nincomplete super-structures, a greedily post-processed version (COS+)\nstill enables to significantly outperform other heuristic searches.",
+    "authors": [
+        "Eric Perrier",
+        "Seiya Imoto",
+        "Satoru Miyano"
+    ],
+    "id": "perrier08a",
+    "issue": 73,
+    "pages": [
+        2251,
+        2286
+    ],
+    "title": "Finding Optimal Bayesian Network Given a Super-Structure",
+    "volume": "9",
+    "year": "2008"
+}

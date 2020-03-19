@@ -1,0 +1,16 @@
+{
+    "abstract": "We present a new technique called \"t-SNE\" that visualizes\nhigh-dimensional data by giving each datapoint a location in a two or\nthree-dimensional map. The technique is a variation of Stochastic\nNeighbor Embedding (Hinton and Roweis, 2002) that is much easier to optimize,\nand produces significantly better visualizations by reducing the\ntendency to crowd points together in the center of the map. t-SNE is\nbetter than existing techniques at creating a single map that reveals\nstructure at many different scales. This is particularly important for\nhigh-dimensional data that lie on several different, but related,\nlow-dimensional manifolds, such as images ofobjects from multiple\nclasses seen from multiple viewpoints. For visualizing the structure\nof very large data sets, we show how t-SNE can use random walks on\nneighborhood graphs to allow the implicit structure of all of the data\nto influence the way in which a subset of the data is displayed. We\nillustrate the performance of t-SNE on a wide variety of data sets and\ncompare it with many other non-parametric visualization techniques,\nincluding Sammon mapping, Isomap, and Locally Linear Embedding. The\nvisualizations produced by t-SNE are significantly better than those\nproduced by the other techniques on almost all of the data sets.",
+    "authors": [
+        "Laurens van der Maaten",
+        "Geoffrey Hinton"
+    ],
+    "id": "vandermaaten08a",
+    "issue": 85,
+    "pages": [
+        2579,
+        2605
+    ],
+    "title": "Visualizing Data using t-SNE",
+    "volume": "9",
+    "year": "2008"
+}

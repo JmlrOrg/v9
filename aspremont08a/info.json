@@ -1,0 +1,17 @@
+{
+    "abstract": "Given a sample covariance matrix, we examine the problem of maximizing\nthe variance explained by a linear combination of the input variables\nwhile constraining the number of nonzero coefficients in this\ncombination. This is known as sparse principal component analysis and\nhas a wide array of applications in machine learning and\nengineering. We formulate a new semidefinite relaxation to this\nproblem and derive a greedy algorithm that computes a <i>full set</i>\nof good solutions for all target numbers of non zero coefficients,\nwith total complexity <i>O</i>(<i>n</i><sup>3</sup>), where <i>n</i>\nis the number of variables. We then use the same relaxation to derive\nsufficient conditions for global optimality of a solution, which can\nbe tested in <i>O</i>(<i>n</i><sup>3</sup>), per pattern. We discuss\napplications in subset selection and sparse recovery and show on\nartificial examples and biological data that our algorithm does\nprovide globally optimal solutions in many cases.",
+    "authors": [
+        "Alexandre d'Aspremont",
+        "Francis Bach",
+        "Laurent El Ghaoui"
+    ],
+    "id": "aspremont08a",
+    "issue": 41,
+    "pages": [
+        1269,
+        1294
+    ],
+    "title": "Optimal Solutions for Sparse Principal Component Analysis",
+    "volume": "9",
+    "year": "2008"
+}

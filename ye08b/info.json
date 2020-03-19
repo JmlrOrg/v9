@@ -1,0 +1,17 @@
+{
+    "abstract": "Regularized kernel discriminant analysis (RKDA) performs linear\ndiscriminant analysis in the feature space via the kernel trick. Its\nperformance depends on the selection of kernels. In this paper, we\nconsider the problem of multiple kernel learning (MKL) for RKDA, in\nwhich the optimal kernel matrix is obtained as a linear combination\nof pre-specified kernel matrices. We show that the kernel learning\nproblem in RKDA can be formulated as convex programs. First, we show\nthat this problem can be formulated as a semidefinite program (SDP).\nBased on the equivalence relationship between RKDA and least square\nproblems in the binary-class case, we propose a convex quadratically\nconstrained quadratic programming (QCQP) formulation for kernel\nlearning in RKDA. A semi-infinite linear programming (SILP)\nformulation is derived to further improve the efficiency. We extend\nthese formulations to the multi-class case based on a key result\nestablished in this paper. That is, the multi-class RKDA kernel\nlearning problem can be decomposed into a set of binary-class kernel\nlearning problems which are constrained to share a common kernel.\nBased on this decomposition property, SDP formulations are proposed\nfor the multi-class case. Furthermore, it leads naturally to QCQP\nand SILP formulations. As the performance of RKDA depends on the\nregularization parameter, we show that this parameter can also be\noptimized in a joint framework with the kernel. Extensive\nexperiments have been conducted and analyzed, and connections to\nother algorithms are discussed.",
+    "authors": [
+        "Jieping Ye",
+        "Shuiwang Ji",
+        "Jianhui Chen"
+    ],
+    "id": "ye08b",
+    "issue": 24,
+    "pages": [
+        719,
+        758
+    ],
+    "title": "Multi-class Discriminant Kernel Learning via Convex Programming",
+    "volume": "9",
+    "year": "2008"
+}
