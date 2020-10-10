@@ -2,7 +2,7 @@
     "abstract": "Many complex control problems require sophisticated solutions that are not\namenable to traditional controller design.  Not only is it difficult\nto model real world systems, but often it is unclear  what kind of\nbehavior is required to solve the task.  Reinforcement learning (RL)\napproaches have made progress by using  direct interaction with\nthe task environment, but have so far not scaled well to large state\nspaces and environments that are not fully observable.  In recent\nyears, neuroevolution, the artificial evolution of  neural networks,\nhas had remarkable success in tasks that exhibit these two properties.\nIn this paper, we compare a neuroevolution method\ncalled Cooperative Synapse Neuroevolution (CoSyNE), that uses\ncooperative coevolution at the level of individual synaptic weights,\nto a broad range of reinforcement learning\nalgorithms on very difficult versions of the pole balancing problem\nthat involve large (continuous) state spaces and\nhidden state.  CoSyNE is shown to be significantly more efficient and powerful\nthan the other methods on these tasks.",
     "authors": [
         "Faustino Gomez",
-        "J&#252;rgen Schmidhuber",
+        "J{{\\\"u}}rgen Schmidhuber",
         "Risto Miikkulainen"
     ],
     "id": "gomez08a",

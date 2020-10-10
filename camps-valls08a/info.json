@@ -2,9 +2,9 @@
     "abstract": "<p>\nConventional SVM-based image coding methods are founded on\nindependently restricting the distortion in every image\ncoefficient at some particular image representation.\nGeometrically, this implies allowing arbitrary signal distortions\nin an <i>n</i>-dimensional rectangle defined by the\n&#949;-insensitivity zone in each dimension of the selected\nimage representation domain. Unfortunately, not every image\nrepresentation domain is well-suited for such a simple,\nscalar-wise, approach because statistical and/or perceptual\ninteractions between the coefficients may exist. These\ninteractions imply that scalar approaches may induce distortions\nthat do not follow the image statistics and/or are perceptually\nannoying. Taking into account these relations would imply using\nnon-rectangular &#949;-insensitivity regions (allowing\ncoupled distortions in different coefficients), which is beyond\nthe conventional SVM formulation.\n</p>\n\n<p>\nIn this paper, we report a condition on the suitable domain for\ndeveloping efficient SVM image coding schemes.\nWe analytically demonstrate that no linear domain fulfills this\ncondition because of the statistical and perceptual\ninter-coefficient relations that exist in these domains.\nThis theoretical result is experimentally\nconfirmed by comparing SVM learning in previously reported linear\ndomains and in a recently proposed non-linear perceptual domain\nthat simultaneously reduces the statistical and perceptual\nrelations (so it is closer to fulfilling the proposed condition).\nThese results highlight the relevance of an appropriate choice of\nthe image representation before SVM learning.\n</p>",
     "authors": [
         "Gustavo Camps-Valls",
-        "Juan Guti&#233;rrez",
-        "Gabriel G&#243;mez-P&#233;rez",
-        "Jes&#250;s Malo"
+        "Juan Guti{{\\'e}}rrez",
+        "Gabriel G{{\\'o}}mez-P{{\\'e}}rez",
+        "Jes{{\\'u}}s Malo"
     ],
     "id": "camps-valls08a",
     "issue": 2,

@@ -1,9 +1,9 @@
 {
     "abstract": "In the last years of his life, Leo Breiman promoted random forests for\nuse in classification. He suggested using averaging as a means of\nobtaining good discrimination rules.  The base classifiers used for\naveraging are simple and randomized, often based on random samples\nfrom the data.  He left a few questions unanswered regarding the\nconsistency of such rules. In this paper, we give a number of theorems\nthat establish the universal consistency of averaging rules. We also\nshow that some popular classifiers, including one suggested by\nBreiman, are not universally consistent.",
     "authors": [
-        "G&#233;rard Biau",
+        "G{{\\'e}}rard Biau",
         "Luc Devroye",
-        "G&#225;bor Lugosi"
+        "G{{\\'a}}bor Lugosi"
     ],
     "id": "biau08a",
     "issue": 65,

@@ -1,7 +1,7 @@
 {
     "abstract": "We study a generative model in which hidden causes combine\ncompetitively to produce observations.  Multiple active causes combine\nto determine the value of an observed variable through a max\nfunction, in the place where algorithms such as sparse coding,\nindependent component analysis, or non-negative matrix factorization\nwould use a sum.  This max rule can represent a more realistic\nmodel of non-linear interaction between basic components in many\nsettings, including acoustic and image data.\nWhile exact maximum-likelihood learning of the parameters of this\nmodel proves to be intractable, we show that efficient\napproximations to expectation-maximization (EM) can be found in the\ncase of sparsely active hidden causes.  One of these approximations\ncan be formulated as a neural network model with a generalized softmax\nactivation function and Hebbian learning.\nThus, we show that learning in recent softmax-like neural networks may\nbe interpreted as approximate maximization of a data likelihood.\nWe use the bars benchmark test to numerically verify our analytical\nresults and to demonstrate the competitiveness of the resulting\nalgorithms.\nFinally, we show results of learning model parameters to fit acoustic\nand visual data sets in which max-like component combinations arise\nnaturally.",
     "authors": [
-        "J&#246;rg L&#252;cke",
+        "J{{\\\"o}}rg L{{\\\"u}}cke",
         "Maneesh Sahani"
     ],
     "id": "luecke08a",

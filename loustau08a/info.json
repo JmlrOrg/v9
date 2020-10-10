@@ -1,7 +1,7 @@
 {
     "abstract": "<p>\nThis paper investigates statistical performances of Support Vector\nMachines (SVM) and considers the problem of adaptation to the margin\nparameter and to complexity. In particular we provide a classifier\nwith no tuning parameter. It is a combination of SVM classifiers.\n</p>\n<p>\nOur contribution is two-fold: (1) we propose learning rates for SVM\nusing Sobolev spaces and build a numerically realizable aggregate that\nconverges with same rate; (2) we present practical experiments of this\nmethod of aggregation for SVM using both Sobolev spaces and Gaussian\nkernels.\n</p>",
     "authors": [
-        "S&#233;bastien Loustau"
+        "S{{\\'e}}bastien Loustau"
     ],
     "id": "loustau08a",
     "issue": 49,

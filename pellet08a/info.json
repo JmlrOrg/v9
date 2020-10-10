@@ -2,7 +2,7 @@
     "abstract": "We show how a generic feature-selection algorithm returning strongly\nrelevant variables can be turned into a causal structure-learning\nalgorithm. We prove this under the Faithfulness assumption for the\ndata distribution. In a causal graph, the strongly relevant variables\nfor a node <i>X</i> are its parents, children, and children's parents (or\nspouses), also known as the Markov blanket of <i>X</i>. Identifying the\nspouses leads to the detection of the V-structure patterns and thus to\ncausal orientations. Repeating the task for all variables yields a\nvalid partially oriented causal graph. We first show an efficient way\nto identify the spouse links. We then perform several experiments in\nthe continuous domain using the Recursive Feature Elimination\nfeature-selection algorithm with Support Vector Regression and\nempirically verify the intuition of this direct (but computationally\nexpensive) approach. Within the same framework, we then devise a fast\nand consistent algorithm, Total Conditioning (TC), and a variant,\nTC<sub>bw</sub>, with an explicit backward feature-selection heuristics, for\nGaussian data. After running a series of comparative experiments on\nfive artificial networks, we argue that Markov blanket algorithms such\nas TC/TC<sub>bw</sub> or Grow-Shrink scale better than the reference PC\nalgorithm and provides higher structural accuracy.",
     "authors": [
         "Jean-Philippe Pellet",
-        "Andr&#233; Elisseeff"
+        "Andr{{\\'e}} Elisseeff"
     ],
     "id": "pellet08a",
     "issue": 42,

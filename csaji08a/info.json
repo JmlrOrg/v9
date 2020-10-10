@@ -1,8 +1,8 @@
 {
     "abstract": "The paper investigates the possibility of applying value function\nbased reinforcement learning (RL) methods in cases when the\nenvironment may change over time. First, theorems are presented which\nshow that the optimal value function of a discounted Markov decision\nprocess (MDP) Lipschitz continuously depends on the immediate-cost\nfunction and the transition-probability function. Dependence on the\ndiscount factor is also analyzed and shown to be\nnon-Lipschitz. Afterwards, the concept of (&#949;,&#948;)-MDPs\nis introduced, which is a generalization of MDPs and\n&#949;-MDPs.  In this model the environment may change over\ntime, more precisely, the transition function and the cost function\nmay vary from time to time, but the changes must be bounded in the\nlimit. Then, learning algorithms in changing environments are\nanalyzed. A general relaxed convergence theorem for stochastic\niterative algorithms is presented. We also demonstrate the results\nthrough three classical RL methods: asynchronous value iteration,\nQ-learning and temporal difference learning. Finally, some numerical\nexperiments concerning changing environments are presented.",
     "authors": [
-        "Bal&#225;zs Csan&#225;d Cs&#225;ji",
-        "L&#225;szl&#243; Monostori"
+        "Bal{{\\'a}}zs Csan{{\\'a}}d Cs{{\\'a}}ji",
+        "L{{\\'a}}szl{{\\'o}} Monostori"
     ],
     "id": "csaji08a",
     "issue": 53,
