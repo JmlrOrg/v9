@@ -1,11 +1,11 @@
 {
     "abstract": "The max-sum classifier predicts <i>n</i>-tuple of labels from <i>n</i>-tuple of\nobservable variables by maximizing a sum of quality functions defined over\nneighbouring pairs of labels and observable variables.\nPredicting labels as MAP assignments of a Random Markov Field is a\nparticular example of the max-sum classifier.\nLearning parameters of the max-sum classifier is a challenging problem\nbecause even computing the response of such classifier is NP-complete\nin general. Estimating parameters using the Maximum Likelihood\napproach is feasible only for a subclass of max-sum classifiers with\nan acyclic structure of neighbouring pairs. Recently, the discriminative methods\nrepresented by the perceptron and the Support Vector Machines, originally\ndesigned for binary linear classifiers, have been extended for learning some\nsubclasses of the max-sum classifier. Besides the max-sum classifiers with the\nacyclic neighbouring structure, it has been shown that the discriminative\nlearning is possible even with arbitrary neighbouring structure provided the\nquality functions fulfill some additional constraints. In this article, we extend the\ndiscriminative approach to other three classes of max-sum classifiers with\nan arbitrary neighbourhood structure. We derive learning algorithms for two\nsubclasses of max-sum classifiers whose response can be computed in polynomial\ntime: (i) the max-sum classifiers with supermodular quality functions and\n(ii) the max-sum classifiers whose response can be computed exactly by a\nlinear programming relaxation. Moreover, we show that the learning problem\ncan be approximately solved even for a general max-sum classifier.",
     "authors": [
-        "Vojt{\\v{e}}ch Franc",
+        "Vojt&#283;ch Franc",
         "Bogdan Savchynskyy"
     ],
     "id": "franc08a",
-    "issue": 3,
+    "issue": 4,
     "pages": [
         67,
         104
