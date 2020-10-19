@@ -15,5 +15,12 @@
     ],
     "title": "LIBLINEAR: A Library for Large Linear Classification",
     "volume": "9",
-    "year": "2008"
+    "year": "2008",
+    "special_issue": "MLOSS",
+    "extra_links": [
+        [
+            "code",
+            "https://www.csie.ntu.edu.tw/~cjlin/liblinear/"
+        ]
+    ],
 }
