@@ -14,5 +14,8 @@
     "title": "A Library for Locally Weighted Projection Regression",
     "volume": "9",
     "year": "2008",
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [
+        ["code", "http://www.ipab.inf.ed.ac.uk/slmc/software/lwpr"]
+    ]
 }

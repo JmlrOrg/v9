@@ -13,5 +13,6 @@
     "title": "JNCC2: The Java Implementation Of Naive Credal Classifier 2",
     "volume": "9",
     "year": "2008",
-    "special_issue": "MLOSS"
+    "special_issue": "MLOSS",
+    "extra_links": [["code", "https://people.idsia.ch/~giorgio/jncc2.html"]]
 }
